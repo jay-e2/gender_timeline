@@ -1,460 +1,450 @@
 {
-  "title": {
-    "text": {
-      "headline": "History of Gender Evolution",
-      "text": "A comprehensive timeline exploring the evolution of gender roles and dynamics from the origins of life to the modern era."
-    }
-  },
-  "eras": [
-    {
-      "start_date": {
-        "year": "-4000000000",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "-10000",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Prehistoric Era",
-        "text": "<p>The period before 10,000 BCE, encompassing the origins of life and early human societies.</p>"
-      }
+    "title": {
+        "text": {
+            "headline": "Evolution and Ontogenetic Influences on Gender in Modern Society",
+            "text": "A comprehensive timeline exploring the evolution and ontogenetic influences on gender roles and dynamics from the origins of life to the modern era."
+        }
     },
-    {
-      "start_date": {
-        "year": "-10000",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "500",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Early Human Societies",
-        "text": "<p>The period from 10,000 BCE to 500 CE, covering the development of early human societies and gender roles.</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "-5000",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "500",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Ancient Civilizations",
-        "text": "<p>The period from 5000 BCE to 500 CE, focusing on the foundations of gender norms in ancient civilizations.</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "500",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "1500",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Middle Ages",
-        "text": "<p>The period from 500 to 1500 CE, highlighting the reinforcement and resistance to traditional gender roles.</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1500",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "1800",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Renaissance and Enlightenment",
-        "text": "<p>The period from 1500 to 1800 CE, where seeds of change in gender roles were sown.</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1800",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "1900",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Industrial Revolution",
-        "text": "<p>The period from 1800 to 1900 CE, where significant shifts in labor and family structures occurred.</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1900",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "2020",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Modern Era",
-        "text": "<p>The period from 1900 to the present, encompassing major social movements and technological advancements affecting gender roles.</p>"
-      }
-    }
-  ],
-  "events": [
-    {
-      "start_date": {
-        "year": "-4000000000",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "-3500000000",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Origins of Life and Early Reproductive Strategies",
-        "text": "<p>The journey of gender begins with the origins of life on primordial Earth, where simple molecules transformed into complex polymers capable of self-replication and metabolism (Joyce, 2002; Orgel, 2004). The 'primordial soup' theory posits that early Earth's environment facilitated the formation of simple molecules, leading to the RNA world hypothesis where RNA played dual roles as genetic material and catalyst (Cech, 1986). Early life forms reproduced asexually, similar to binary fission, which posed an evolutionary bottleneck due to the lack of genetic diversity (Maynard Smith & Szathmáry, 1995).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "-2500000000",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "-1500000000",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Evolution of Cellular Complexity and Sexual Reproduction",
-        "text": "<p>The endosymbiotic theory explains the origin of mitochondria and chloroplasts as formerly free-living bacteria that formed symbiotic relationships with early eukaryotic cells (Margulis, 1970). This incorporation enabled the evolution of cellular differentiation and multicellularity, setting the stage for more complex reproductive strategies. Sexual reproduction involves the fusion of two gametes, each carrying half of the parent's genetic material, combining different genetic backgrounds and producing offspring with novel genetic combinations (Bell, 1982). This shift towards sexual reproduction marked a pivotal evolutionary development, laying the groundwork for the emergence of complex gender dynamics (Bernstein et al., 1985).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "-1200000000",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "-600000000",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Emergence of Anisogamy and Sexual Dimorphism",
-        "text": "<p>The differentiation of gametes into distinct types (e.g., eggs and sperm), known as anisogamy, evolved through disruptive selection, where intermediate-sized gametes were less fit than large resource-rich eggs or small motile sperm (Parker et al., 1972). This divergence laid the foundation for the evolution of sexual dimorphism and gender-specific reproductive strategies (Bulmer & Parker, 2002).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "-2500000",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "-10000",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Tool Use and Bipedalism",
-        "text": "<p>The development and use of tools significantly influenced human evolution and gender-specific tasks. Men were primarily involved in hunting and tool-making activities requiring strength and precision, while women focused on gathering and processing plant materials, reflecting a division of labor that maximized the efficiency of early human groups (Lombard & Haidle, 2012). The evolution of bipedalism had significant implications for the division of labor between genders in early human societies. Bipedalism freed the hands for carrying tools and food, enabling more complex social structures and task specialization (Lovejoy, 1981).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "-400000",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "-40000",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Neanderthal Division of Labor",
-        "text": "<p>Archaeological evidence from Neanderthal sites provides insights into the gendered division of labor in these early human relatives. Men were primarily responsible for hunting, while women gathered and processed food, highlighting the adaptability and complexity of Neanderthal social structures (Kuhn & Stiner, 2006).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "-300000",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "-10000",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Parental Investment Theory and Reproductive Strategies",
-        "text": "<p>Parental investment theory explains differences in male and female reproductive strategies based on the relative investment each sex makes in offspring. Females typically invest more heavily in offspring due to gestation and lactation, leading to choosiness in mate selection and a focus on securing resources for offspring. Males may compete for access to females and exhibit behaviors that maximize their reproductive output (Trivers, 1972).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "-5000",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "-500",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Mesopotamia: Foundations of Gender Norms",
-        "text": "<p>Gender roles were rigidly defined and deeply rooted in societal structures. Men engaged in public life, politics, and warfare, while women were confined to domestic roles (Hill et al., 2020). The Code of Hammurabi enforced strict gender roles with women having limited rights compared to men.</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "-3100",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "-30",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Egypt: Gender Roles",
-        "text": "<p>Gender roles in Egypt were more fluid than in Mesopotamia. Women of lower classes often worked alongside men in fields and trade (Lesko, 1991).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "-800",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "-146",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Greece: Gender Roles",
-        "text": "<p>Women’s roles were restricted to household management and child-rearing, except in Sparta where women had more freedom and were encouraged to participate in physical training (Pomeroy, 1975).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "-753",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "476",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Rome: Gender Roles",
-        "text": "<p>The patriarchal structure reinforced male dominance, yet women in wealthy families could wield significant influence within their households (Gardner, 1993).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "500",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "1500",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Feudal System and Church Influence",
-        "text": "<p>The feudal system reinforced traditional gender roles with men as lords and women managing domestic affairs. The Church played a critical role in dictating gender norms, often portraying women as subservient to men. However, notable women like Joan of Arc challenged these norms, demonstrating the capacity for resistance within oppressive systems (Thibaut, 2017).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "500",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "1500",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Women in Religious Communities",
-        "text": "<p>In some convents and religious communities, women held significant spiritual authority. For instance, Hildegard of Bingen was a prominent writer, composer, and visionary whose influence extended beyond her convent (Flanagan, 1991).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1300",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "1600",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Renaissance: Seeds of Change",
-        "text": "<p>The rise of humanism and the intellectual contributions of women scholars began challenging traditional gender roles. Figures such as Christine de Pizan advocated for women’s education and intellectual capabilities, challenging the prevailing norms of their time (Burke, 2013).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1650",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "1800",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Enlightenment: Seeds of Change",
-        "text": "<p>Despite significant contributions, many female scholars faced considerable resistance, and their works were often marginalized or credited to male peers. For example, the works of Mary Wollstonecraft, an early advocate for women’s rights, were often dismissed during her lifetime due to her radical views (Kelly, 1992).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1760",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "1840",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Industrial Revolution: Shifts in Labor and Family Structures",
-        "text": "<p>The Industrial Revolution marked a turning point in gender roles as economic changes began to alter family structures and women’s roles in labor. The emergence of the separate spheres ideology reinforced traditional gender roles with men working in public spheres and women confined to domestic duties (Anderson, 2019).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1800",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "1900",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Labor Movements",
-        "text": "<p>Women’s increased participation in the workforce during this period set the stage for future labor movements advocating for gender equality. However, women were often excluded from higher-paying industrial jobs, reinforcing economic disparities (Pinchbeck, 1930).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1900",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "1950",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Early 20th Century Social Movements",
-        "text": "<p>Movements like feminism began challenging traditional gender roles and advocating for gender equality. Increased participation of women in the workforce and political spheres was significant during this period (Burnet, 2011).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "1950",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "2000",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Late 20th Century Social Movements",
-        "text": "<p>Technological advances and changing social norms further transformed gender roles, with increased visibility of LGBTQ+ individuals and advocacy for their rights (Badran, 2009).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "2000",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "2020",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Digital Age and Gender Norms",
-        "text": "<p>Digital platforms and social media became powerful tools for influencing discussions on gender. Movements like #MeToo utilized social media to raise awareness about gender-based violence and discrimination, highlighting the potential of digital activism to drive social change (Bennett & Segerberg, 2013). Conversely, these platforms can also perpetuate gender stereotypes and biases, demonstrating the dual-edged nature of digital media in shaping gender norms (Herring & Kapidzic, 2015).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "2020",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "2023",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "COVID-19 Pandemic",
-        "text": "<p>The COVID-19 pandemic exacerbated existing gender inequalities, particularly in the labor market. Women disproportionately shouldered the burden of unpaid care work, leading to setbacks in gender equality in the workforce (Alon et al., 2020).</p>"
-      }
-    },
-    {
-      "start_date": {
-        "year": "2023",
-        "month": "1",
-        "day": "1"
-      },
-      "end_date": {
-        "year": "2030",
-        "month": "1",
-        "day": "1"
-      },
-      "text": {
-        "headline": "Future Speculations: Future Directions",
-        "text": "<p>Ongoing social, technological, and environmental changes continue to shape gender roles. Advances in artificial intelligence and robotics, as well as shifts towards more inclusive and diverse understandings of gender, may further blur traditional distinctions (Butler, 1990). Speculatively, one could imagine a future where gender roles are entirely fluid, with individuals freely expressing their identities without societal constraints. Such a future would require profound changes in education, policy, and cultural attitudes, emphasizing the importance of empathy, equity, and inclusion (Diamond, 2002).</p>"
-      }
-    }
-  ]
+    "eras": [
+        {
+            "start_date": {
+                "year": "-4000000000",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "-10000",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Prehistoric Era",
+                "text": "<p>The period before 10,000 BCE, encompassing the origins of life and early human societies.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "-10000",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "500",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Early Human Societies",
+                "text": "<p>The period from 10,000 BCE to 500 CE, covering the development of early human societies and gender roles.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "-5000",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "500",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Ancient Civilizations",
+                "text": "<p>The period from 5000 BCE to 500 CE, focusing on the foundations of gender norms in ancient civilizations.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "500",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "1500",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Middle Ages",
+                "text": "<p>The period from 500 to 1500 CE, highlighting the reinforcement and resistance to traditional gender roles.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1500",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "1800",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Renaissance and Enlightenment",
+                "text": "<p>The period from 1500 to 1800 CE, where seeds of change in gender roles were sown.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1800",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "1900",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Industrial Revolution",
+                "text": "<p>The period from 1800 to 1900 CE, where significant shifts in labor and family structures occurred.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1900",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "2020",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Modern Era",
+                "text": "<p>The period from 1900 to the present, encompassing major social movements and technological advancements affecting gender roles.</p>"
+            }
+        }
+    ],
+    "events": [
+        {
+            "start_date": {
+                "year": "-4000000000",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "-3500000000",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Origins of Life and Early Reproductive Strategies",
+                "text": "<p>The journey of gender begins with the origins of life on primordial Earth, where simple molecules transformed into complex polymers capable of self-replication and metabolism (Joyce, 2002; Orgel, 2004). The 'primordial soup' theory posits that early Earth's environment facilitated the formation of simple molecules, leading to the RNA world hypothesis where RNA played dual roles as genetic material and catalyst (Cech, 1986). Early life forms reproduced asexually, similar to binary fission, which posed an evolutionary bottleneck due to the lack of genetic diversity (Maynard Smith & Szathmáry, 1995).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "-2500000000",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "-1500000000",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Evolution of Cellular Complexity and Sexual Reproduction",
+                "text": "<p>The endosymbiotic theory explains the origin of mitochondria and chloroplasts as formerly free-living bacteria that formed symbiotic relationships with early eukaryotic cells (Margulis, 1970). This incorporation enabled the evolution of cellular differentiation and multicellularity, setting the stage for more complex reproductive strategies. Sexual reproduction involves the fusion of two gametes, each carrying half of the parent's genetic material, combining different genetic backgrounds and producing offspring with novel genetic combinations (Bell, 1982). This shift towards sexual reproduction marked a pivotal evolutionary development, laying the groundwork for the emergence of complex gender dynamics (Bernstein et al., 1985).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "-1200000000",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "-600000000",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Emergence of Anisogamy and Sexual Dimorphism",
+                "text": "<p>The differentiation of gametes into distinct types (e.g., eggs and sperm), known as anisogamy, evolved through disruptive selection, where intermediate-sized gametes were less fit than large resource-rich eggs or small motile sperm (Parker et al., 1972). This divergence laid the foundation for the evolution of sexual dimorphism and gender-specific reproductive strategies (Bulmer & Parker, 2002).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "-2500000",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "-10000",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Tool Use and Bipedalism",
+                "text": "<p>The development and use of tools significantly influenced human evolution and gender-specific tasks. Men were primarily involved in hunting and tool-making activities requiring strength and precision, while women focused on gathering and processing plant materials, reflecting a division of labor that maximized the efficiency of early human groups (Lombard & Haidle, 2012). The evolution of bipedalism had significant implications for the division of labor between genders in early human societies. Bipedalism freed the hands for carrying tools and food, enabling more complex social structures and task specialization (Lovejoy, 1981).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "-400000",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "-40000",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Neanderthal Division of Labor",
+                "text": "<p>Archaeological evidence from Neanderthal sites provides insights into the gendered division of labor in these early human relatives. Men were primarily responsible for hunting, while women gathered and processed food, highlighting the adaptability and complexity of Neanderthal social structures (Kuhn & Stiner, 2006).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "-300000",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Parental Investment Theory and Reproductive Strategies",
+                "text": "<p>Parental investment theory explains differences in male and female reproductive strategies based on the relative investment each sex makes in offspring. Females typically invest more heavily in offspring due to gestation and lactation, leading to choosiness in mate selection and a focus on securing resources for offspring. Males may compete for access to females and exhibit behaviors that maximize their reproductive output (Trivers, 1972).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "-5000",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "-500",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Mesopotamia: Foundations of Gender Norms",
+                "text": "<p>Gender roles were rigidly defined and deeply rooted in societal structures. Men engaged in public life, politics, and warfare, while women were confined to domestic roles (Hill et al., 2020). The Code of Hammurabi enforced strict gender roles with women having limited rights compared to men.</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "-3100",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "-30",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Egypt: Gender Roles",
+                "text": "<p>Gender roles in Egypt were more fluid than in Mesopotamia. Women of lower classes often worked alongside men in fields and trade (Lesko, 1991).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "-800",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "-146",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Greece: Gender Roles",
+                "text": "<p>Women’s roles were restricted to household management and child-rearing, except in Sparta where women had more freedom and were encouraged to participate in physical training (Pomeroy, 1975).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "-753",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "476",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Rome: Gender Roles",
+                "text": "<p>The patriarchal structure reinforced male dominance, yet women in wealthy families could wield significant influence within their households (Gardner, 1993).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "500",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "1500",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Feudal System and Church Influence",
+                "text": "<p>The feudal system reinforced traditional gender roles with men as lords and women managing domestic affairs. The Church played a critical role in dictating gender norms, often portraying women as subservient to men. However, notable women like Joan of Arc challenged these norms, demonstrating the capacity for resistance within oppressive systems (Thibaut, 2017).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "500",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Women in Religious Communities",
+                "text": "<p>In some convents and religious communities, women held significant spiritual authority. For instance, Hildegard of Bingen was a prominent writer, composer, and visionary whose influence extended beyond her convent (Flanagan, 1991).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1300",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "1600",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Renaissance: Seeds of Change",
+                "text": "<p>The rise of humanism and the intellectual contributions of women scholars began challenging traditional gender roles. Figures such as Christine de Pizan advocated for women’s education and intellectual capabilities, challenging the prevailing norms of their time (Burke, 2013).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1650",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "1800",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Enlightenment: Seeds of Change",
+                "text": "<p>Despite significant contributions, many female scholars faced considerable resistance, and their works were often marginalized or credited to male peers. For example, the works of Mary Wollstonecraft, an early advocate for women’s rights, were often dismissed during her lifetime due to her radical views (Kelly, 1992).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1760",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "1840",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Industrial Revolution: Shifts in Labor and Family Structures",
+                "text": "<p>The Industrial Revolution marked a turning point in gender roles as economic changes began to alter family structures and women’s roles in labor. The emergence of the separate spheres ideology reinforced traditional gender roles with men working in public spheres and women confined to domestic duties (Anderson, 2019).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1800",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "1900",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Labor Movements",
+                "text": "<p>Women’s increased participation in the workforce during this period set the stage for future labor movements advocating for gender equality. However, women were often excluded from higher-paying industrial jobs, reinforcing economic disparities (Pinchbeck, 1930).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1900",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "1950",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Early 20th Century Social Movements",
+                "text": "<p>Movements like feminism began challenging traditional gender roles and advocating for gender equality. Increased participation of women in the workforce and political spheres was significant during this period (Burnet, 2011).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "1950",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "2000",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Late 20th Century Social Movements",
+                "text": "<p>Technological advances and changing social norms further transformed gender roles, with increased visibility of LGBTQ+ individuals and advocacy for their rights (Badran, 2009).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "2000",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "2020",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Digital Age and Gender Norms",
+                "text": "<p>Digital platforms and social media became powerful tools for influencing discussions on gender. Movements like #MeToo utilized social media to raise awareness about gender-based violence and discrimination, highlighting the potential of digital activism to drive social change (Bennett & Segerberg, 2013). Conversely, these platforms can also perpetuate gender stereotypes and biases, demonstrating the dual-edged nature of digital media in shaping gender norms (Herring & Kapidzic, 2015).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "2020",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "2023",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "COVID-19 Pandemic",
+                "text": "<p>The COVID-19 pandemic exacerbated existing gender inequalities, particularly in the labor market. Women disproportionately shouldered the burden of unpaid care work, leading to setbacks in gender equality in the workforce (Alon et al., 2020).</p>"
+            }
+        },
+        {
+            "start_date": {
+                "year": "2023",
+                "month": "1",
+                "day": "1"
+            },
+            "end_date": {
+                "year": "2030",
+                "month": "1",
+                "day": "1"
+            },
+            "text": {
+                "headline": "Future Speculations: Future Directions",
+                "text": "<p>Ongoing social, technological, and environmental changes continue to shape gender roles. Advances in artificial intelligence and robotics, as well as shifts towards more inclusive and diverse understandings of gender, may further blur traditional distinctions (Butler, 1990). Speculatively, one could imagine a future where gender roles are entirely fluid, with individuals freely expressing their identities without societal constraints. Such a future would require profound changes in education, policy, and cultural attitudes, emphasizing the importance of empathy, equity, and inclusion (Diamond, 2002).</p>"
+            }
+        }
+    ]
 }
