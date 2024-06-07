@@ -5,6 +5,56 @@
       "text": "A timeline of significant events from the beginning of the universe to the present day."
     }
   },
+  "eras": [
+    {
+      "start_date": {
+        "year": "-6000000000",
+        "month": "1",
+        "day": "1"
+      },
+      "end_date": {
+        "year": "-4500000000",
+        "month": "1",
+        "day": "1"
+      },
+      "text": {
+        "headline": "Formation of the Solar System",
+        "text": "<p>Period during which the Solar System formed.</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-4500000000",
+        "month": "1",
+        "day": "1"
+      },
+      "end_date": {
+        "year": "-3000000000",
+        "month": "1",
+        "day": "1"
+      },
+      "text": {
+        "headline": "Formation of the Earth and Moon",
+        "text": "<p>Period during which the Earth and Moon formed.</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-3000000000",
+        "month": "1",
+        "day": "1"
+      },
+      "end_date": {
+        "year": "0",
+        "month": "1",
+        "day": "1"
+      },
+      "text": {
+        "headline": "Development of Life on Earth",
+        "text": "<p>Period during which life developed on Earth.</p>"
+      }
+    }
+  ],
   "events": [
     {
       "start_date": {
@@ -33,8 +83,40 @@
         "text": "<p>The Earth formed about 4.5 billion years ago.</p>"
       },
       "media": {
-        "url": "images/universe_800x600.jpg",
+        "url": "images/image2.jpg",
         "caption": "Early Earth",
+        "credit": "NASA"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-4500000000",
+        "month": "6",
+        "day": "1"
+      },
+      "text": {
+        "headline": "Formation of the Moon",
+        "text": "<p>The Moon formed shortly after the Earth, possibly as a result of a collision with a Mars-sized body.</p>"
+      },
+      "media": {
+        "url": "images/moon.jpg",
+        "caption": "Formation of the Moon",
+        "credit": "NASA"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-3500000000",
+        "month": "1",
+        "day": "1"
+      },
+      "text": {
+        "headline": "First Evidence of Life",
+        "text": "<p>The earliest evidence of life on Earth dates back to around 3.5 billion years ago.</p>"
+      },
+      "media": {
+        "url": "images/first_life.jpg",
+        "caption": "First Evidence of Life",
         "credit": "NASA"
       }
     }
