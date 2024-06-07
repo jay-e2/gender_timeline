@@ -1,0 +1,43 @@
+{
+  "title": {
+    "text": {
+      "headline": "History of the Universe",
+      "text": "A timeline of significant events from the beginning of the universe to the present day."
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "-6000000000",
+        "month": "1",
+        "day": "1"
+      },
+      "text": {
+        "headline": "Formation of the Solar System",
+        "text": "<p>The Solar System formed approximately 6 billion years ago.</p>"
+      },
+      "media": {
+        "url": "images/image1.jpg",
+        "caption": "Artist's impression of the early Solar System",
+        "credit": "NASA"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-4500000000",
+        "month": "1",
+        "day": "1"
+      },
+      "text": {
+        "headline": "Formation of the Earth",
+        "text": "<p>The Earth formed about 4.5 billion years ago.</p>"
+      },
+      "media": {
+        "url": "images/image2.jpg",
+        "caption": "Early Earth",
+        "credit": "NASA"
+      }
+    }
+    // Add more events here
+  ]
+}
