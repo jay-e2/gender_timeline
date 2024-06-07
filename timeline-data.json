@@ -13,13 +13,29 @@
         "day": "1"
       },
       "end_date": {
+        "year": "-10000",
+        "month": "1",
+        "day": "1"
+      },
+      "text": {
+        "headline": "Prehistoric Era",
+        "text": "<p>The period before 10000 BCE.</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-6000000000",
+        "month": "1",
+        "day": "1"
+      },
+      "end_date": {
         "year": "-4500000000",
         "month": "1",
         "day": "1"
       },
       "text": {
         "headline": "Formation of the Solar System",
-        "text": "<p>Period during which the Solar System formed.</p>"
+        "text": "<p>The period during which the Solar System formed.</p>"
       }
     },
     {
@@ -35,23 +51,39 @@
       },
       "text": {
         "headline": "Formation of the Earth and Moon",
-        "text": "<p>Period during which the Earth and Moon formed.</p>"
+        "text": "<p>The period during which the Earth and Moon formed.</p>"
       }
     },
     {
       "start_date": {
-        "year": "-3000000000",
+        "year": "-100000",
         "month": "1",
         "day": "1"
       },
       "end_date": {
-        "year": "0",
+        "year": "-10000",
         "month": "1",
         "day": "1"
       },
       "text": {
-        "headline": "Development of Life on Earth",
-        "text": "<p>Period during which life developed on Earth.</p>"
+        "headline": "Upper Paleolithic",
+        "text": "<p>The period of human history from approximately 100,000 to 10,000 BCE.</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-3000000",
+        "month": "1",
+        "day": "1"
+      },
+      "end_date": {
+        "year": "-100000",
+        "month": "1",
+        "day": "1"
+      },
+      "text": {
+        "headline": "Lower and Middle Paleolithic",
+        "text": "<p>The period of human history from about 3,000,000 BCE to 100,000 BCE.</p>"
       }
     }
   ],
@@ -118,6 +150,38 @@
         "url": "images/first_life.jpg",
         "caption": "First Evidence of Life",
         "credit": "NASA"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-100000",
+        "month": "1",
+        "day": "1"
+      },
+      "text": {
+        "headline": "Emergence of Homo sapiens",
+        "text": "<p>Homo sapiens, the species to which all modern human beings belong, emerged around 100,000 BCE.</p>"
+      },
+      "media": {
+        "url": "images/homo_sapiens.jpg",
+        "caption": "Emergence of Homo sapiens",
+        "credit": "Smithsonian"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-50000",
+        "month": "1",
+        "day": "1"
+      },
+      "text": {
+        "headline": "Cave Paintings in Lascaux",
+        "text": "<p>The famous cave paintings in Lascaux, France, were created around 50,000 BCE.</p>"
+      },
+      "media": {
+        "url": "images/lascaux.jpg",
+        "caption": "Cave Paintings in Lascaux",
+        "credit": "Wikipedia"
       }
     }
   ]

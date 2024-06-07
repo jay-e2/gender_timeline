@@ -24,3 +24,7 @@ body {
   color: #e60000;
   font-weight: bold;
 }
+
+.tl-timeline-event {
+  margin: 5px 0;  // Adjust the margin to space out events
+}
