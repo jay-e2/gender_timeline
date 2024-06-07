@@ -20,7 +20,7 @@
     hash_bookmark: true
   };
 
-  fetch('simple-timeline-data.json')
+  fetch('updated-timeline-data.json')
     .then(response => response.json())
     .then(data => {
       window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);
