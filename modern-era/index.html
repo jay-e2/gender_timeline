@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ancient Civilizations Timeline</title>
+  <title>Modern Era Timeline</title>
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
 </head>
 <body>
 
 <nav>
-  <a href="prehistoric-era.html">Previous: Prehistoric Era</a>
-  <a href="modern-era.html">Next: Modern Era</a>
+  <a href="../ancient-civilizations/index.html">Previous: Ancient Civilizations</a>
 </nav>
 
 <div id="timeline-embed"></div>
@@ -25,7 +24,7 @@
     hash_bookmark: true
   };
 
-  fetch('ancient-civilizations.json')
+  fetch('modern-era.json')
     .then(response => response.json())
     .then(data => {
       window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);
