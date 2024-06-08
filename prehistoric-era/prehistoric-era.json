@@ -11,23 +11,71 @@
         "year": "-4000000000"
       },
       "end_date": {
-        "year": "-3500000000"
+        "year": "-3800000000"
       },
       "text": {
-        "headline": "Origins of Life and Early Reproductive Strategies",
-        "text": "The journey of gender begins with the origins of life on primordial Earth, where simple molecules transformed into complex polymers capable of self-replication and metabolism. Early life forms reproduced asexually, similar to binary fission, which posed an evolutionary bottleneck due to the lack of genetic diversity."
+        "headline": "Formation of complex polymers from simple molecules",
+        "text": ""
       }
     },
     {
       "start_date": {
-        "year": "-2500000000"
+        "year": "-3800000000"
       },
       "end_date": {
-        "year": "-1500000000"
+        "year": "-3500000000"
       },
       "text": {
-        "headline": "Evolution of Cellular Complexity and Sexual Reproduction",
-        "text": "The endosymbiotic theory explains the origin of mitochondria and chloroplasts as formerly free-living bacteria that formed symbiotic relationships with early eukaryotic cells. Sexual reproduction involves the fusion of two gametes, each carrying half of the parent's genetic material, combining different genetic backgrounds and producing offspring with novel genetic combinations."
+        "headline": "Emergence of self-replicating RNA and protocells",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "-3600000000"
+      },
+      "end_date": {
+        "year": "-350000000"
+      },
+      "text": {
+        "headline": "Early life forms reproduced asexually, limiting genetic diversity",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "-2000000000"
+      },
+      "end_date": {
+        "year": "-180000000"
+      },
+      "text": {
+        "headline": "Endosymbiotic theory explains origin of mitochondria and chloroplasts",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "-1800000000"
+      },
+      "end_date": {
+        "year": "-150000000"
+      },
+      "text": {
+        "headline": "Development of eukaryotic cells, leading to multicellularity",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "-1500000000"
+      },
+      "end_date": {
+        "year": "-120000000"
+      },
+      "text": {
+        "headline": "Sexual reproduction introduces genetic recombination and variability",
+        "text": ""
       }
     },
     {
@@ -35,11 +83,23 @@
         "year": "-1200000000"
       },
       "end_date": {
-        "year": "-600000000"
+        "year": "-1000000000"
       },
       "text": {
-        "headline": "Emergence of Anisogamy and Sexual Dimorphism",
-        "text": "The differentiation of gametes into distinct types, known as anisogamy, evolved through disruptive selection, where intermediate-sized gametes were less fit than large resource-rich eggs or small motile sperm. This divergence laid the foundation for the evolution of sexual dimorphism and gender-specific reproductive strategies."
+        "headline": "Differentiation of gametes into eggs and sperm",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "-1000000000"
+      },
+      "end_date": {
+        "year": "-6000000"
+      },
+      "text": {
+        "headline": "Evolution of sexual dimorphism and gender-specific reproductive strategies",
+        "text": ""
       }
     }
   ]
