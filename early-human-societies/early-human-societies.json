@@ -1,0 +1,43 @@
+{
+  "title": {
+    "text": {
+      "headline": "Early Human Societies",
+      "text": "The period from 10,000 BCE to 500 CE, covering the development of early human societies and gender roles."
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "-2500000"
+      },
+      "end_date": {
+        "year": "-10000"
+      },
+      "text": {
+        "headline": "Tool Use and Bipedalism",
+        "text": "The development and use of tools significantly influenced human evolution and gender-specific tasks. The evolution of bipedalism had significant implications for the division of labor between genders in early human societies."
+      }
+    },
+    {
+      "start_date": {
+        "year": "-400000"
+      },
+      "end_date": {
+        "year": "-40000"
+      },
+      "text": {
+        "headline": "Neanderthal Division of Labor",
+        "text": "Archaeological evidence from Neanderthal sites provides insights into the gendered division of labor in these early human relatives."
+      }
+    },
+    {
+      "start_date": {
+        "year": "-300000"
+      },
+      "text": {
+        "headline": "Parental Investment Theory and Reproductive Strategies",
+        "text": "Parental investment theory explains differences in male and female reproductive strategies based on the relative investment each sex makes in offspring."
+      }
+    }
+  ]
+}

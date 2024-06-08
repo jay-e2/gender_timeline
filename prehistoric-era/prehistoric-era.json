@@ -14,8 +14,8 @@
         "year": "-3500000000"
       },
       "text": {
-        "headline": "Origins of Life",
-        "text": "Origins of life on Earth."
+        "headline": "Origins of Life and Early Reproductive Strategies",
+        "text": "The journey of gender begins with the origins of life on primordial Earth, where simple molecules transformed into complex polymers capable of self-replication and metabolism. Early life forms reproduced asexually, similar to binary fission, which posed an evolutionary bottleneck due to the lack of genetic diversity."
       }
     },
     {
@@ -26,8 +26,20 @@
         "year": "-1500000000"
       },
       "text": {
-        "headline": "Cellular Complexity",
-        "text": "Evolution of cellular complexity."
+        "headline": "Evolution of Cellular Complexity and Sexual Reproduction",
+        "text": "The endosymbiotic theory explains the origin of mitochondria and chloroplasts as formerly free-living bacteria that formed symbiotic relationships with early eukaryotic cells. Sexual reproduction involves the fusion of two gametes, each carrying half of the parent's genetic material, combining different genetic backgrounds and producing offspring with novel genetic combinations."
+      }
+    },
+    {
+      "start_date": {
+        "year": "-1200000000"
+      },
+      "end_date": {
+        "year": "-600000000"
+      },
+      "text": {
+        "headline": "Emergence of Anisogamy and Sexual Dimorphism",
+        "text": "The differentiation of gametes into distinct types, known as anisogamy, evolved through disruptive selection, where intermediate-sized gametes were less fit than large resource-rich eggs or small motile sperm. This divergence laid the foundation for the evolution of sexual dimorphism and gender-specific reproductive strategies."
       }
     }
   ]

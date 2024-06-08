@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prehistoric Era Timeline</title>
+  <title>Middle Ages Timeline</title>
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
 <nav>
-  <a href="../early-human-societies/index.html">Next: Early Human Societies</a>
+  <a href="../ancient-civilizations/index.html">Previous: Ancient Civilizations</a>
+  <a href="../renaissance-and-enlightenment/index.html">Next: Renaissance and Enlightenment</a>
 </nav>
 
 <div id="timeline-embed"></div>
@@ -25,7 +26,7 @@
     hash_bookmark: true
   };
 
-  fetch('prehistoric-era.json')
+  fetch('middle-ages.json')
     .then(response => response.json())
     .then(data => {
       window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);

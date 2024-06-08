@@ -14,8 +14,8 @@
         "year": "-500"
       },
       "text": {
-        "headline": "Mesopotamia: Foundations of Gender Norms",
-        "text": "Gender roles were rigidly defined and deeply rooted in societal structures. The Code of Hammurabi enforced strict gender roles with women having limited rights compared to men."
+        "headline": "Mesopotamia",
+        "text": "Gender roles were rigidly defined and deeply rooted in societal structures. Men engaged in public life, politics, and warfare, while women were confined to domestic roles. The Code of Hammurabi enforced strict gender roles with women having limited rights compared to men."
       }
     },
     {
@@ -26,8 +26,32 @@
         "year": "-30"
       },
       "text": {
-        "headline": "Egypt: Gender Roles",
+        "headline": "Egypt",
         "text": "Gender roles in Egypt were more fluid than in Mesopotamia. Women of lower classes often worked alongside men in fields and trade."
+      }
+    },
+    {
+      "start_date": {
+        "year": "-800"
+      },
+      "end_date": {
+        "year": "-146"
+      },
+      "text": {
+        "headline": "Greece",
+        "text": "Women’s roles were restricted to household management and child-rearing, except in Sparta where women had more freedom and were encouraged to participate in physical training."
+      }
+    },
+    {
+      "start_date": {
+        "year": "-753"
+      },
+      "end_date": {
+        "year": "476"
+      },
+      "text": {
+        "headline": "Rome",
+        "text": "The patriarchal structure reinforced male dominance, yet women in wealthy families could wield significant influence within their households."
       }
     }
   ]
