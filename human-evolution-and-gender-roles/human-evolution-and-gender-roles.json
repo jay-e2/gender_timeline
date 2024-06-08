@@ -1,29 +1,11 @@
 {
   "title": {
     "text": {
-      "headline": "Early Human Evolution",
-      "text": "Evolution of Gender Roles and Social Structures"
+      "headline": "Human Evolution and Gender Roles",
+      "text": "Evolutionary developments that have specifically influenced human gender roles, behaviors, and societal structures."
     }
   },
   "events": [
-    {
-      "start_date": {
-        "year": "-200000000"
-      },
-      "text": {
-        "headline": "Mammalian evolution",
-        "text": "Hormonal Regulation and Gender Development."
-      }
-    },
-    {
-      "start_date": {
-        "year": "-100000000"
-      },
-      "text": {
-        "headline": "Sexual Selection and Gender-Specific Traits",
-        "text": ""
-      }
-    },
     {
       "start_date": {
         "year": "-50000000"

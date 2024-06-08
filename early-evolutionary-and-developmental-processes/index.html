@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Early Human Evolution Timeline</title>
+  <title>Early Evolutionary and Developmental Processes Timeline</title>
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
   <link rel="stylesheet" href="../css/styles.css">
 </head>
@@ -11,7 +11,7 @@
 
 <nav>
   <a href="../early-lifeforms/index.html">Previous: Early Lifeforms</a>
-  <a href="../social-developments/index.html">Next: Social Developments</a>
+  <a href="../human-evolution-and-gender-roles/index.html">Next: Human Evolution and Gender Roles</a>
 </nav>
 
 <div id="timeline-embed"></div>
@@ -26,7 +26,7 @@
     hash_bookmark: true
   };
 
-  fetch('early-human-evolution.json')
+  fetch('early-evolutionary-and-developmental-processes.json')
     .then(response => response.json())
     .then(data => {
       window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);

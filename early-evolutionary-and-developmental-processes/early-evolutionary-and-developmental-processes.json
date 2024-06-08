@@ -1,0 +1,28 @@
+{
+  "title": {
+    "text": {
+      "headline": "Early Evolutionary and Developmental Processes",
+      "text": "Evolution of sexual dimorphism and gender differentiation, including the role of genes, hormones, and early sexual selection."
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "-200000000"
+      },
+      "text": {
+        "headline": "Mammalian evolution",
+        "text": "Hormonal Regulation and Gender Development."
+      }
+    },
+    {
+      "start_date": {
+        "year": "-100000000"
+      },
+      "text": {
+        "headline": "Sexual Selection and Gender-Specific Traits",
+        "text": ""
+      }
+    }
+  ]
+}
