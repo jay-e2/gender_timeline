@@ -86,34 +86,53 @@ const timelineData = [
   }
 ];
 
-function createTimeline() {
-  const timelineContent = document.getElementById('timeline-content');
-  
-  timelineData.forEach(period => {
-    const periodDiv = document.createElement('div');
-    periodDiv.className = 'period';
+let currentPeriodIndex = 0;
+let currentEventIndex = 0;
 
-    const periodTitle = document.createElement('h2');
-    periodTitle.textContent = period.period;
-    periodDiv.appendChild(periodTitle);
+function updateEvent() {
+  const period = timelineData[currentPeriodIndex];
+  const event = period.events[currentEventIndex];
 
-    period.events.forEach(event => {
-      const eventDiv = document.createElement('div');
-      eventDiv.className = 'event';
+  document.getElementById('event-period').textContent = period.period;
+  document.getElementById('event-title').textContent = `${event.year} - ${event.title}`;
+  document.getElementById('event-description').textContent = event.description;
 
-      const eventTitle = document.createElement('h3');
-      eventTitle.textContent = `${event.year} - ${event.title}`;
-      eventDiv.appendChild(eventTitle);
-
-      const eventDescription = document.createElement('p');
-      eventDescription.textContent = event.description;
-      eventDiv.appendChild(eventDescription);
-
-      periodDiv.appendChild(eventDiv);
-    });
-
-    timelineContent.appendChild(periodDiv);
-  });
+  updateProgress();
+  updateButtons();
 }
 
-document.addEventListener('DOMContentLoaded', createTimeline);
+function updateProgress() {
+  const totalPeriods = timelineData.length;
+  const totalEvents = timelineData.reduce((sum, period) => sum + period.events.length, 0);
+  const currentEventPosition = timelineData.slice(0, currentPeriodIndex).reduce((sum, period) => sum + period.events.length, 0) + currentEventIndex + 1;
+  const progress = (currentEventPosition / totalEvents) * 100;
+
+  document.getElementById('progress').style.width = `${progress}%`;
+}
+
+function updateButtons() {
+  document.getElementById('prevBtn').disabled = currentPeriodIndex === 0 && currentEventIndex === 0;
+  document.getElementById('nextBtn').disabled = currentPeriodIndex === timelineData.length - 1 && currentEventIndex === timelineData[currentPeriodIndex].events.length - 1;
+}
+
+document.getElementById('prevBtn').addEventListener('click', () => {
+  if (currentEventIndex > 0) {
+    currentEventIndex--;
+  } else if (currentPeriodIndex > 0) {
+    currentPeriodIndex--;
+    currentEventIndex = timelineData[currentPeriodIndex].events.length - 1;
+  }
+  updateEvent();
+});
+
+document.getElementById('nextBtn').addEventListener('click', () => {
+  if (currentEventIndex < timelineData[currentPeriodIndex].events.length - 1) {
+    currentEventIndex++;
+  } else if (currentPeriodIndex < timelineData.length - 1) {
+    currentPeriodIndex++;
+    currentEventIndex = 0;
+  }
+  updateEvent();
+});
+
+document.addEventListener('DOMContentLoaded', updateEvent);
