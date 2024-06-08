@@ -1,0 +1,46 @@
+{
+  "title": {
+    "text": {
+      "headline": "Modern Era",
+      "text": "The period from 1900 to the present, encompassing major social movements and technological advancements affecting gender roles."
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "1900"
+      },
+      "text": {
+        "headline": "Start of 20th Century",
+        "text": "The beginning of the 20th century."
+      }
+    },
+    {
+      "start_date": {
+        "year": "1950"
+      },
+      "text": {
+        "headline": "Mid 20th Century",
+        "text": "The middle of the 20th century."
+      }
+    },
+    {
+      "start_date": {
+        "year": "2000"
+      },
+      "text": {
+        "headline": "Start of 21st Century",
+        "text": "The beginning of the 21st century."
+      }
+    },
+    {
+      "start_date": {
+        "year": "2020"
+      },
+      "text": {
+        "headline": "Current Era",
+        "text": "The current era."
+      }
+    }
+  ]
+}

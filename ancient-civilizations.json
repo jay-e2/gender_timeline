@@ -1,0 +1,34 @@
+{
+  "title": {
+    "text": {
+      "headline": "Ancient Civilizations",
+      "text": "The period from 5000 BCE to 500 CE, focusing on the foundations of gender norms in ancient civilizations."
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "-5000"
+      },
+      "end_date": {
+        "year": "-500"
+      },
+      "text": {
+        "headline": "Mesopotamia: Foundations of Gender Norms",
+        "text": "Gender roles were rigidly defined and deeply rooted in societal structures. The Code of Hammurabi enforced strict gender roles with women having limited rights compared to men."
+      }
+    },
+    {
+      "start_date": {
+        "year": "-3100"
+      },
+      "end_date": {
+        "year": "-30"
+      },
+      "text": {
+        "headline": "Egypt: Gender Roles",
+        "text": "Gender roles in Egypt were more fluid than in Mesopotamia. Women of lower classes often worked alongside men in fields and trade."
+      }
+    }
+  ]
+}
