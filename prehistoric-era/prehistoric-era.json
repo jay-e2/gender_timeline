@@ -1,8 +1,8 @@
 {
   "title": {
     "text": {
-      "headline": "Primordial Earth",
-      "text": "The period before 10,000 BCE, encompassing the origins of life and early human societies."
+      "headline": "Evolution of Sexual Dimorphism",
+      "text": "The Precambrian Era, encompassing the origins of life and early reproductive strategies."
     }
   },
   "events": [
@@ -50,7 +50,7 @@
         "year": "-3500000000"
       },
       "text": {
-        "headline": "Early life forms",
+        "headline": "Emergence of early life forms",
         "text": ""
       }
     },
@@ -86,7 +86,7 @@
         "year": "-1200000000"
       },
       "text": {
-        "headline": "Sexual reproduction introduces genetic recombination and variability",
+        "headline": "Evolution of sexual reproduction",
         "text": ""
       }
     },
@@ -110,7 +110,16 @@
         "year": "-600000000"
       },
       "text": {
-        "headline": "Evolution of sexual dimorphism and gender-specific reproductive strategies",
+        "headline": "Evolution of sexual dimorphism",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "-600000000"
+      },
+      "text": {
+        "headline": "Role of Hox genes and regulatory genes in sexual dimorphism",
         "text": ""
       }
     }

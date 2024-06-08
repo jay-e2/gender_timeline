@@ -1,21 +1,45 @@
 {
   "title": {
     "text": {
-      "headline": "Early Human Societies",
-      "text": "The period from 10,000 BCE to 500 CE, covering the development of early human societies and gender roles."
+      "headline": "Evolution of Gender Roles and Social Structures",
+      "text": ""
     }
   },
   "events": [
     {
       "start_date": {
-        "year": "-2500000"
-      },
-      "end_date": {
-        "year": "-10000"
+        "year": "-200000000"
       },
       "text": {
-        "headline": "Tool Use and Bipedalism",
-        "text": "The development and use of tools significantly influenced human evolution and gender-specific tasks. The evolution of bipedalism had significant implications for the division of labor between genders in early human societies."
+        "headline": "Mammalian evolution",
+        "text": "Hormonal Regulation and Gender Development."
+      }
+    },
+    {
+      "start_date": {
+        "year": "-100000000"
+      },
+      "text": {
+        "headline": "Sexual Selection and Gender-Specific Traits",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "-50000000"
+      },
+      "text": {
+        "headline": "Parental Investment Theory and Reproductive Strategies",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "-4000000"
+      },
+      "text": {
+        "headline": "Tool Use, Bipedalism, and Gender-Specific Tasks",
+        "text": ""
       }
     },
     {
@@ -26,8 +50,8 @@
         "year": "-40000"
       },
       "text": {
-        "headline": "Neanderthal Division of Labor",
-        "text": "Archaeological evidence from Neanderthal sites provides insights into the gendered division of labor in these early human relatives."
+        "headline": "Neanderthal Division of Labour.",
+        "text": ""
       }
     },
     {
@@ -35,8 +59,8 @@
         "year": "-300000"
       },
       "text": {
-        "headline": "Parental Investment Theory and Reproductive Strategies",
-        "text": "Parental investment theory explains differences in male and female reproductive strategies based on the relative investment each sex makes in offspring."
+        "headline": "Evolution of Homo sapiens.",
+        "text": ""
       }
     }
   ]
