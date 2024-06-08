@@ -122,7 +122,7 @@ function updateIndicators(totalEvents, currentEventPosition) {
       const indicator = document.createElement('div');
       indicator.className = 'event-indicator';
       if (eventCount === currentEventPosition - 1) {
-        indicator.style.backgroundColor = 'red';
+        indicator.classList.add('current-event');
       }
       const label = document.createElement('span');
       label.textContent = event.year;
