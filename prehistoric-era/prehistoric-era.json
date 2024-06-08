@@ -1,7 +1,7 @@
 {
   "title": {
     "text": {
-      "headline": "Prehistoric Era",
+      "headline": "Primordial Earth",
       "text": "The period before 10,000 BCE, encompassing the origins of life and early human societies."
     }
   },
@@ -11,7 +11,7 @@
         "year": "-4000000000"
       },
       "end_date": {
-        "year": "-3800000000"
+        "year": "-3900000000"
       },
       "text": {
         "headline": "Formation of complex polymers from simple molecules",
@@ -20,13 +20,25 @@
     },
     {
       "start_date": {
+        "year": "-3900000000"
+      },
+      "end_date": {
+        "year": "-3800000000"
+      },
+      "text": {
+        "headline": "Emergence of self-replicating RNA",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
         "year": "-3800000000"
       },
       "end_date": {
-        "year": "-3500000000"
+        "year": "-3600000000"
       },
       "text": {
-        "headline": "Emergence of self-replicating RNA and protocells",
+        "headline": "Formation of protocells",
         "text": ""
       }
     },
@@ -35,10 +47,10 @@
         "year": "-3600000000"
       },
       "end_date": {
-        "year": "-350000000"
+        "year": "-3500000000"
       },
       "text": {
-        "headline": "Early life forms reproduced asexually, limiting genetic diversity",
+        "headline": "Early life forms",
         "text": ""
       }
     },
@@ -47,10 +59,10 @@
         "year": "-2000000000"
       },
       "end_date": {
-        "year": "-180000000"
+        "year": "-1800000000"
       },
       "text": {
-        "headline": "Endosymbiotic theory explains origin of mitochondria and chloroplasts",
+        "headline": "Origin of mitochondria and chloroplasts",
         "text": ""
       }
     },
@@ -59,10 +71,10 @@
         "year": "-1800000000"
       },
       "end_date": {
-        "year": "-150000000"
+        "year": "-1500000000"
       },
       "text": {
-        "headline": "Development of eukaryotic cells, leading to multicellularity",
+        "headline": "Development of eukaryotic cells",
         "text": ""
       }
     },
@@ -71,7 +83,7 @@
         "year": "-1500000000"
       },
       "end_date": {
-        "year": "-120000000"
+        "year": "-1200000000"
       },
       "text": {
         "headline": "Sexual reproduction introduces genetic recombination and variability",
@@ -95,7 +107,7 @@
         "year": "-1000000000"
       },
       "end_date": {
-        "year": "-6000000"
+        "year": "-600000000"
       },
       "text": {
         "headline": "Evolution of sexual dimorphism and gender-specific reproductive strategies",
