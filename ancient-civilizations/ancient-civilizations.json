@@ -120,7 +120,7 @@
       "start_date": {
         "year": "1100"
       },
-      "end_date":{
+      "end_date": {
         "year": "1500"
       },
       "text": {
@@ -132,48 +132,48 @@
       "start_date": {
         "year": "1300"
       },
-      "end_date":{
+      "end_date": {
         "year": "1800"
       },
       "text": {
         "headline": "Rise of Humanism and Contributions of Women Scholars",
-        "text": ""
+        "text": "The rise of humanism and the intellectual contributions of women scholars began challenging traditional gender roles. Figures such as Christine de Pizan advocated for women’s education and intellectual capabilities, challenging the prevailing norms of their time."
       }
     },
     {
       "start_date": {
         "year": "1600"
       },
-      "end_date":{
+      "end_date": {
         "year": "1800"
       },
       "text": {
         "headline": "Enlightenment Emphasis on Reason and Individual Rights Paving the Way for Early Feminist Movements",
-        "text": ""
+        "text": "Despite significant contributions, many female scholars faced considerable resistance, and their works were often marginalized or credited to male peers. For example, the works of Mary Wollstonecraft, an early advocate for women’s rights, were often dismissed during her lifetime due to her radical views."
       }
     },
     {
       "start_date": {
         "year": "1760"
       },
-      "end_date":{
+      "end_date": {
         "year": "1840"
       },
       "text": {
-        "headline": "Economic Changes Altering Family Structures and Women's Roles in Labour",
-        "text": ""
+        "headline": "Economic Changes Altering Family Structures and Women's Roles in Labor",
+        "text": "The Industrial Revolution marked a turning point in gender roles as economic changes began to alter family structures and women’s roles in labor. The emergence of the separate spheres ideology reinforced traditional gender roles with men working in public spheres and women confined to domestic duties."
       }
     },
     {
       "start_date": {
         "year": "1800"
       },
-      "end_date":{
+      "end_date": {
         "year": "1900"
       },
       "text": {
         "headline": "Emergence of the Separate Spheres Ideology Reinforcing Traditional Gender Roles",
-        "text": ""
+        "text": "Women’s increased participation in the workforce during this period set the stage for future labor movements advocating for gender equality. However, women were often excluded from higher-paying industrial jobs, reinforcing economic disparities."
       }
     },
     {
@@ -182,7 +182,7 @@
       },
       "text": {
         "headline": "Increasing Participation of Women in the Workforce Setting the Stage for Future Labor Movements",
-        "text": ""
+        "text": "Women’s increased participation in the workforce during this period set the stage for future labor movements advocating for gender equality. However, women were often excluded from higher-paying industrial jobs, reinforcing economic disparities."
       }
     }
   ]
