@@ -108,6 +108,29 @@ function updateProgress() {
   const progress = (currentEventPosition / totalEvents) * 100;
 
   document.getElementById('progress').style.width = `${progress}%`;
+  updateIndicators(totalEvents, currentEventPosition);
+}
+
+function updateIndicators(totalEvents, currentEventPosition) {
+  const indicatorsContainer = document.getElementById('event-indicators');
+  indicatorsContainer.innerHTML = '';
+
+  let eventCount = 0;
+
+  timelineData.forEach(period => {
+    period.events.forEach(event => {
+      const indicator = document.createElement('div');
+      indicator.className = 'event-indicator';
+      if (eventCount === currentEventPosition - 1) {
+        indicator.style.backgroundColor = 'red';
+      }
+      const label = document.createElement('span');
+      label.textContent = event.year;
+      indicator.appendChild(label);
+      indicatorsContainer.appendChild(indicator);
+      eventCount++;
+    });
+  });
 }
 
 function updateButtons() {
