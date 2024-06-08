@@ -3,12 +3,12 @@ const timelineData = [
     period: "Origins of Life",
     events: [
       {
-        year: "-3.5 Billion",
+        year: "-3500000000",
         title: "Formation of Simple Molecules",
         description: "The 'primordial soup' theory posits that early Earth's environment facilitated the formation of simple molecules, leading to the RNA world hypothesis."
       },
       {
-        year: "-3.0 Billion",
+        year: "-3000000000",
         title: "Emergence of Protocells",
         description: "Protocells encapsulating self-replicating RNA and metabolic networks likely originated in hydrothermal vents or tidal pools."
       }
@@ -88,13 +88,14 @@ const timelineData = [
 
 let currentPeriodIndex = 0;
 let currentEventIndex = 0;
+let zoomLevel = 1;
 
 function updateEvent() {
   const period = timelineData[currentPeriodIndex];
   const event = period.events[currentEventIndex];
 
   document.getElementById('event-period').textContent = period.period;
-  document.getElementById('event-title').textContent = `${event.year} - ${event.title}`;
+  document.getElementById('event-title').textContent = `${parseYear(event.year)} - ${event.title}`;
   document.getElementById('event-description').textContent = event.description;
 
   updateProgress();
@@ -125,7 +126,7 @@ function updateIndicators(totalEvents, currentEventPosition) {
         indicator.classList.add('current-event');
       }
       const label = document.createElement('span');
-      label.textContent = event.year;
+      label.textContent = parseYear(event.year);
       indicator.appendChild(label);
       indicatorsContainer.appendChild(indicator);
       eventCount++;
@@ -136,6 +137,14 @@ function updateIndicators(totalEvents, currentEventPosition) {
 function updateButtons() {
   document.getElementById('prevBtn').disabled = currentPeriodIndex === 0 && currentEventIndex === 0;
   document.getElementById('nextBtn').disabled = currentPeriodIndex === timelineData.length - 1 && currentEventIndex === timelineData[currentPeriodIndex].events.length - 1;
+}
+
+function parseYear(year) {
+  const yearInt = parseInt(year, 10);
+  if (yearInt < 0) {
+    return `${Math.abs(yearInt)} BCE`;
+  }
+  return `${yearInt} CE`;
 }
 
 document.getElementById('prevBtn').addEventListener('click', () => {
@@ -158,4 +167,28 @@ document.getElementById('nextBtn').addEventListener('click', () => {
   updateEvent();
 });
 
-document.addEventListener('DOMContentLoaded', updateEvent);
+document.getElementById('zoom-in').addEventListener('click', () => {
+  if (zoomLevel < 4) {
+    zoomLevel++;
+    adjustZoom();
+  }
+});
+
+document.getElementById('zoom-out').addEventListener('click', () => {
+  if (zoomLevel > 1) {
+    zoomLevel--;
+    adjustZoom();
+  }
+});
+
+function adjustZoom() {
+  const eventIndicators = document.querySelectorAll('.event-indicator span');
+  eventIndicators.forEach(indicator => {
+    indicator.style.fontSize = `${12 * zoomLevel}px`;
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  updateEvent();
+  adjustZoom();
+});

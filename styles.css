@@ -65,6 +65,7 @@ button:disabled {
   top: 0;
   left: 0;
   z-index: 1;
+  transition: width 0.3s ease;
 }
 
 #event-indicators {
@@ -95,4 +96,20 @@ button:disabled {
 
 .current-event {
   background-color: red !important;
+}
+
+#zoom-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#zoom-in, #zoom-out {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 5px;
 }
