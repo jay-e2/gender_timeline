@@ -5,6 +5,20 @@
       "text": "The period from 500 to 1500 CE, highlighting the reinforcement and resistance to traditional gender roles."
     }
   },
+  "eras": [
+    {
+      "start_date": {
+        "year": ""
+      },
+      "end_date": {
+        "year": ""
+      },
+      "text": {
+        "headline": "",
+        "text": ""
+      }
+    }
+  ],
   "events": [
     {
       "start_date": {
@@ -20,7 +34,10 @@
     },
     {
       "start_date": {
-        "year": "500"
+        "year": "1100"
+      },
+      "end_date":{
+        "year": "1500"
       },
       "text": {
         "headline": "Women in Religious Communities",

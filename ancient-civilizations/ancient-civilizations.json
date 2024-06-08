@@ -5,13 +5,63 @@
       "text": "The period from 5000 BCE to 500 CE, focusing on the foundations of gender norms in ancient civilizations."
     }
   },
+  "eras": [
+    {
+      "start_date": {
+        "year": "-3000"
+      },
+      "end_date": {
+        "year": "500"
+      },
+      "text": {
+        "headline": "Ancient Civilizations: Foundations of Gender Norms",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "500"
+      },
+      "end_date": {
+        "year": "1500"
+      },
+      "text": {
+        "headline": "The Middle Ages: Reinforcement and Resistance",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "1300"
+      },
+      "end_date": {
+        "year": "1800"
+      },
+      "text": {
+        "headline": "Renaissance and Enlightenment: Seeds of Change",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "1760"
+      },
+      "end_date": {
+        "year": "1840"
+      },
+      "text": {
+        "headline": "Industrial Revolution: Shifts in Labor and Family Structures",
+        "text": ""
+      }
+    }
+  ],
   "events": [
     {
       "start_date": {
-        "year": "-5000"
+        "year": "-3100"
       },
       "end_date": {
-        "year": "-500"
+        "year": "-539"
       },
       "text": {
         "headline": "Mesopotamia",
@@ -35,7 +85,7 @@
         "year": "-800"
       },
       "end_date": {
-        "year": "-146"
+        "year": "-31"
       },
       "text": {
         "headline": "Greece",
@@ -52,6 +102,87 @@
       "text": {
         "headline": "Rome",
         "text": "The patriarchal structure reinforced male dominance, yet women in wealthy families could wield significant influence within their households."
+      }
+    },
+    {
+      "start_date": {
+        "year": "500"
+      },
+      "end_date": {
+        "year": "1500"
+      },
+      "text": {
+        "headline": "Feudal System and Church Influence",
+        "text": "The feudal system reinforced traditional gender roles with men as lords and women managing domestic affairs. The Church played a critical role in dictating gender norms, often portraying women as subservient to men. However, notable women like Joan of Arc challenged these norms, demonstrating the capacity for resistance within oppressive systems."
+      }
+    },
+    {
+      "start_date": {
+        "year": "1100"
+      },
+      "end_date":{
+        "year": "1500"
+      },
+      "text": {
+        "headline": "Women in Religious Communities",
+        "text": "In some convents and religious communities, women held significant spiritual authority. For instance, Hildegard of Bingen was a prominent writer, composer, and visionary whose influence extended beyond her convent."
+      }
+    },
+    {
+      "start_date": {
+        "year": "1300"
+      },
+      "end_date":{
+        "year": "1800"
+      },
+      "text": {
+        "headline": "Rise of Humanism and Contributions of Women Scholars",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "1600"
+      },
+      "end_date":{
+        "year": "1800"
+      },
+      "text": {
+        "headline": "Enlightenment Emphasis on Reason and Individual Rights Paving the Way for Early Feminist Movements",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "1760"
+      },
+      "end_date":{
+        "year": "1840"
+      },
+      "text": {
+        "headline": "Economic Changes Altering Family Structures and Women's Roles in Labour",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "1800"
+      },
+      "end_date":{
+        "year": "1900"
+      },
+      "text": {
+        "headline": "Emergence of the Separate Spheres Ideology Reinforcing Traditional Gender Roles",
+        "text": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "1800"
+      },
+      "text": {
+        "headline": "Increasing Participation of Women in the Workforce Setting the Stage for Future Labor Movements",
+        "text": ""
       }
     }
   ]
