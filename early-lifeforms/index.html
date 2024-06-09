@@ -10,7 +10,7 @@
 <body>
 
 <nav>
-  <a href="../early-evolutionary-and-developmental-processes/index.html" class="nav-link-right">Next: Early Evolutionary and Developmental Processes</a>
+  <a href="../early-evolutionary-and-developmental-processes/index.html" class="nav-link nav-link-right">Next: Early Evolutionary and Developmental Processes</a>
   <a href="../references.html" class="references-link">References</a>
 </nav>
 
@@ -30,8 +30,33 @@
     .then(response => response.json())
     .then(data => {
       window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);
+      applyCustomStyles();
     })
     .catch(error => console.error('Error loading timeline data:', error));
+
+  function applyCustomStyles() {
+    const referencesLink = document.querySelector('.references-link');
+    const navLinkRight = document.querySelector('.nav-link-right');
+    
+    referencesLink.style.display = 'block';
+    referencesLink.style.textAlign = 'center';
+    referencesLink.style.fontSize = '18px';
+    referencesLink.style.color = 'blue';
+    referencesLink.style.position = 'absolute';
+    referencesLink.style.top = '10px';
+    referencesLink.style.left = '50%';
+    referencesLink.style.transform = 'translateX(-50%)';
+    referencesLink.style.textDecoration = 'none';
+
+    navLinkRight.style.display = 'block';
+    navLinkRight.style.textAlign = 'center';
+    navLinkRight.style.fontSize = '18px';
+    navLinkRight.style.color = 'blue';
+    navLinkRight.style.position = 'absolute';
+    navLinkRight.style.top = '10px';
+    navLinkRight.style.right = '10px';
+    navLinkRight.style.textDecoration = 'none';
+  }
 </script>
 
 </body>
