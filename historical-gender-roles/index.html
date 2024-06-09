@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Social Developments Timeline</title>
+  <title>Historical Gender Roles Timeline</title>
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
 <nav>
-  <a href="../human-evolution-and-gender-roles/index.html" class="nav-link nav-link-left">Previous: Human Evolution and Gender Roles</a>
+  <a href="../human-gender-evolution/index.html" class="nav-link nav-link-left">Previous: Human Gender Evolution</a>
   <a href="../references.html" class="references-link">References</a>
 </nav>
 
@@ -26,7 +26,7 @@
     hash_bookmark: true
   };
 
-  fetch('social-developments.json')
+  fetch('historical-gender-roles.json')
     .then(response => response.json())
     .then(data => {
       window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);
