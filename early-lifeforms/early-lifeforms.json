@@ -16,6 +16,10 @@
       "text": {
         "headline": "Formation of complex polymers from simple molecules",
         "text": "Complex polymers formed from simple molecules on early Earth with mineral surfaces acting as catalysts. Minerals such as nickel and iron sulfides promoted essential reactions like the formation of acetic acid and peptide bonds (Deamer & Dworkin, 2005)."
+      },
+      "media": {
+        "url": "images/formation_of_complex_polymers_from_simple_molecules.webp",
+        "caption": ""
       }
     },
     {
@@ -28,6 +32,10 @@
       "text": {
         "headline": "Emergence of self-replicating RNA",
         "text": "Self-replicating RNA marked a pivotal point in life's origin. RNA molecules served as both genetic information carriers and catalysts for replication, solving the 'chicken-and-egg' problem (Cech, 1986)."
+      },
+      "media": {
+        "url": "images/emergence_of_self-replicating_RNA.webp",
+        "caption": ""
       }
     },
     {
@@ -40,6 +48,10 @@
       "text": {
         "headline": "Formation of protocells",
         "text": "Protocells, formed by amphiphilic molecules into lipid bilayers, encapsulated RNA and other macromolecules, leading to cellular life through growth, division, and selection processes (Deamer & Dworkin, 2005)."
+      },
+      "media": {
+        "url": "images/formation_of_complex_polymers_from_simple_molecules.webp",
+        "caption": ""
       }
     },
     {
@@ -52,6 +64,10 @@
       "text": {
         "headline": "Origin of mitochondria and chloroplasts",
         "text": "The symbiotic relationship between early eukaryotic cells and certain prokaryotic organisms led to mitochondria and chloroplasts' origin, enhancing metabolic capabilities like respiration and photosynthesis (Trivers, 1983)."
+      },
+      "media": {
+        "url": "images/origin_of_mitochondria_and_chloro.webp",
+        "caption": ""
       }
     },
     {
@@ -64,6 +80,10 @@
       "text": {
         "headline": "Development of eukaryotic cells with specialized organelles",
         "text": "Eukaryotic cells evolved with compartmentalized organelles, facilitating efficient metabolic pathways and diversification (Trivers, 1983)."
+      },
+      "media": {
+        "url": "images/development_of_eukaryotic_cells_with_specialized_organelles.webp",
+        "caption": ""
       }
     },
     {
@@ -76,6 +96,10 @@
       "text": {
         "headline": "Evolution of sexual reproduction",
         "text": "Sexual reproduction increased genetic diversity, aiding adaptation and survival by combining genetic material from two parents, laying the foundation for gender dynamics (Trivers, 1983)."
+      },
+      "media": {
+        "url": "images/evolution_of_sexual_reproduction.webp",
+        "caption": ""
       }
     },
     {
@@ -88,6 +112,10 @@
       "text": {
         "headline": "Differentiation of gametes into eggs and sperm",
         "text": "Anisogamy evolved, differentiating gametes into eggs and sperm, driven by trade-offs between gamete size and number, leading to sexual dimorphism and gender-specific reproductive strategies (Parker et al., 1972; Bulmer & Parker, 2002)."
+      },
+      "media": {
+        "url": "images/differentiation_of_gametes_into_eggs_and_sperm.webp",
+        "caption": ""
       }
     },
     {
@@ -100,6 +128,10 @@
       "text": {
         "headline": "Evolution of sexual dimorphism",
         "text": "Sexual dimorphism arose from selection pressures linked to mating success and environmental influences, fostering significant differences between sexes (West-Eberhard, 1983)."
+      },
+      "media": {
+        "url": "images/evolution_of_sexual_dimorphism .webp",
+        "caption": ""
       }
     }
   ]
