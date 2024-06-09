@@ -3,35 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Historical Gender Roles Timeline</title>
-  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-  <link rel="stylesheet" href="../css/styles.css">
+  <title>Historical Gender Roles</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .timeline-nav {
+      position: fixed;
+      top: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      box-sizing: border-box;
+      z-index: 1000;
+    }
+
+    .timeline-nav a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #007BFF;
+      background-color: #f8f9fa;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    #timeline-embed {
+      margin-top: 60px; /* Adjust for the height of the navigation bar */
+    }
+  </style>
 </head>
 <body>
 
-<nav>
-  <a href="../human-gender-evolution/index.html" class="nav-link nav-link-left">Previous: Human Gender Evolution</a>
-  <a href="../references.html" class="references-link">References</a>
-</nav>
+<div class="timeline-nav">
+  <a href="human-gender-evolution.html">Previous: Human Gender Evolution</a>
+  <a href="references.html">References</a>
+</div>
 
 <div id="timeline-embed"></div>
-
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 <script>
-  var timelineOptions = {
-    scale_factor: 2,
-    timenav_position: 'bottom',
-    optimal_tick_width: 100,
-    initial_zoom: 1,
-    hash_bookmark: true
-  };
-
-  fetch('historical-gender-roles.json')
-    .then(response => response.json())
-    .then(data => {
-      window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);
-    })
-    .catch(error => console.error('Error loading timeline data:', error));
+  var additionalOptions = {
+    initial_zoom: 2,
+    timenav_position: "bottom"
+  }
+  var timeline_json = "historical-gender-roles.json";
+  window.timeline = new TL.Timeline('timeline-embed', timeline_json, additionalOptions);
 </script>
 
 </body>
