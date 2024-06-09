@@ -16,52 +16,38 @@ h1 {
   margin-top: 20px;
 }
 
-nav {
-  text-align: center;
-  margin: 10px 0;
+#timeline-embed {
+  height: 100%; /* Full height */
 }
 
-nav a {
-  margin: 0 10px;
+.references-link, .nav-link {
+  position: fixed;
   font-size: 18px;
   color: blue;
   text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-#timeline-embed {
-  height: calc(100% - 40px); /* Full height minus the space for the navigation links */
+  z-index: 9999; /* Ensure the links are above the timeline */
+  background: white; /* Optional: Add background to improve visibility */
+  padding: 5px; /* Optional: Add padding for better click area */
 }
 
 .references-link {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  color: blue;
-  position: absolute;
   top: 10px;
   left: 50%;
   transform: translateX(-50%);
-  text-decoration: none;
-}
-
-.references-link:hover {
-  text-decoration: underline;
 }
 
 .nav-link-left {
-  position: absolute;
   top: 10px;
   left: 10px;
 }
 
 .nav-link-right {
-  position: absolute;
   top: 10px;
   right: 10px;
+}
+
+.references-link:hover, .nav-link:hover {
+  text-decoration: underline;
 }
 
 /* References Page Specific Styles */
