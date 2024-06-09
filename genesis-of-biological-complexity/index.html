@@ -3,35 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Genesis of Biological Complexity Timeline</title>
-  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
-  <link rel="stylesheet" href="../css/styles.css">
+  <title>Genesis of Biological Complexity</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Add any specific styles for the timeline page here */
+  </style>
 </head>
 <body>
 
-<nav>
-  <a href="../primate-gender-dynamics/index.html" class="nav-link nav-link-right">Next: Primate Gender Dynamics</a>
-  <a href="../references.html" class="references-link">References</a>
-</nav>
+<a href="index.html" style="position: fixed; top: 20px; left: 20px; font-size: 16px;">Back to Main Page</a>
 
-<div id="timeline-embed"></div>
-
+<div id="timeline-embed" style="width: 100%; height: 600px"></div>
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 <script>
-  var timelineOptions = {
-    scale_factor: 2,
-    timenav_position: 'bottom',
-    optimal_tick_width: 100,
-    initial_zoom: 1,
-    hash_bookmark: true
-  };
-
-  fetch('genesis-of-biological-complexity.json')
-    .then(response => response.json())
-    .then(data => {
-      window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);
-    })
-    .catch(error => console.error('Error loading timeline data:', error));
+  var additionalOptions = {
+    // Any additional TimelineJS options can be added here
+  }
+  timeline = new TL.Timeline('timeline-embed', 'path/to/your/json/file.json', additionalOptions);
 </script>
 
 </body>
