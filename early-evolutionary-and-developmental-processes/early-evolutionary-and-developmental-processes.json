@@ -13,6 +13,10 @@
       "text": {
         "headline": "Emergence of Primates",
         "text": "Early primates developed distinctive traits and social behaviours, enhancing visual acuity and grasping abilities, setting the stage for complex social interactions and gender roles (Ni et al., 2013)."
+      },
+      "media": {
+        "url": "images/emergence_of_primates.webp",
+        "caption": ""
       }
     },
     {
@@ -38,6 +42,10 @@
       "text": {
         "headline": "Gender Segregation in Early Primates",
         "text": "Gender segregation emerged with differing roles in foraging and child-rearing, optimizing survival and reproductive success through specialization (Lovejoy, 1981)."
+      },
+      "media": {
+        "url": "images/gender_segregation_in_early_primates.webp",
+        "caption": ""
       }
     },
     {
@@ -47,6 +55,10 @@
       "text": {
         "headline": "Sexual Selection Shaping Traits",
         "text": "Sexual selection drove the divergence of physical and behavioural traits between genders, enhancing mating success through body size and mating behaviours (Plavcan, 2002)."
+      },
+      "media": {
+        "url": "images/sexual_selection_shaping_traits.webp",
+        "caption": ""
       }
     },
     {
@@ -56,6 +68,10 @@
       "text": {
         "headline": "Genetic Basis of Gender Traits",
         "text": "Genetic differences in hormone regulation and reproductive anatomy influenced gender-specific traits, impacting social behaviours and reproductive strategies (Del Giudice, 2009)."
+      },
+      "media": {
+        "url": "images/genetic_basis_of_gender_traits.webp",
+        "caption": ""
       }
     },
     {
@@ -65,6 +81,10 @@
       "text": {
         "headline": "Impact of Environmental Changes",
         "text": "Environmental changes prompted adaptations in social structures and reproductive strategies, reinforcing gender-specific roles (Janzen & Phillips, 2006)."
+      },
+      "media": {
+        "url": "images/impact_of_environmental_changes.webp",
+        "caption": ""
       }
     },
     {
@@ -77,6 +97,10 @@
       "text": {
         "headline": "Tool Use, Bipedalism, and Gender-Specific Tasks",
         "text": "Tool use and bipedalism led to gender-specific tasks, with males focusing on hunting and tool-making and females on gathering and child care, enhancing social bonds and cooperation (Lovejoy, 1981)."
+      },
+      "media": {
+        "url": "images/tool_use_bipedalism_and_gender_specific_tasks.webp",
+        "caption": ""
       }
     }
   ]
