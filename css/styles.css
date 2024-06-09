@@ -1,25 +1,28 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+/* css/styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
 }
 
-#timeline-embed {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.tl-timenav {
-  position: absolute !important;
-  bottom: 0 !important;
-  width: 100% !important;
-  z-index: 10 !important;
+.timeline-header, .timeline-footer {
+    flex: 0 1 auto;
+    background: #f0f0f0;
+    padding: 10px;
+    text-align: center;
 }
 
-.tl-slidenav {
-  position: absolute !important;
-  bottom: 0 !important;
-  width: 100% !important;
-  z-index: 10 !important;
+.timeline-content {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    padding: 20px;
+    background: #ffffff;
 }
