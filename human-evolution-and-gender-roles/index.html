@@ -7,12 +7,23 @@
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
   <link rel="stylesheet" href="../css/styles.css">
   <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    #timeline-embed {
+      height: calc(100% - 60px); /* Full height minus the space for the references link */
+    }
     .references-link {
       display: block;
-      margin: 20px 0;
       text-align: center;
       font-size: 18px;
       color: blue;
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
     }
   </style>
 </head>
@@ -24,6 +35,8 @@
 </nav>
 
 <div id="timeline-embed"></div>
+
+<a href="../references.html" class="references-link">References</a>
 
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 <script>
@@ -42,8 +55,6 @@
     })
     .catch(error => console.error('Error loading timeline data:', error));
 </script>
-
-<a href="../references.html" class="references-link">References</a>
 
 </body>
 </html>

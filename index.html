@@ -1,48 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timeline</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Timeline Page</title>
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    #timeline-embed {
+      height: calc(100% - 60px); /* Full height minus the space for the references link */
+    }
+    .references-link {
+      display: block;
+      text-align: center;
+      font-size: 18px;
+      color: blue;
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+    }
+    nav {
+      text-align: center;
+      margin: 10px 0;
+    }
+    nav a {
+      margin: 0 10px;
+      font-size: 18px;
+      color: blue;
+    }
+  </style>
 </head>
 <body>
-    <div class="timeline-container">
-        <div class="timeline-header">
-            <!-- Header content -->
-        </div>
-        <div class="timeline-content">
-            <div class="timeline-page">
-                <a href="#references" class="references-link">References</a>
-                <h2>Ancient Civilizations</h2>
-                <!-- Page 1 content -->
-            </div>
-            <div class="timeline-page">
-                <a href="#references" class="references-link">References</a>
-                <h2>The Middle Ages</h2>
-                <!-- Page 2 content -->
-            </div>
-            <div class="timeline-page">
-                <a href="#references" class="references-link">References</a>
-                <h2>Renaissance</h2>
-                <!-- Page 3 content -->
-            </div>
-            <div class="timeline-page">
-                <a href="#references" class="references-link">References</a>
-                <h2>Enlightenment</h2>
-                <!-- Page 4 content -->
-            </div>
-            <div class="timeline-page">
-                <a href="#references" class="references-link">References</a>
-                <h2>Industrial Revolution</h2>
-                <!-- Page 5 content -->
-            </div>
-            <!-- Add more timeline pages as needed -->
-        </div>
-        <div class="timeline-footer" id="references">
-            <!-- Footer content (references, etc.) -->
-        </div>
-    </div>
-    <script src="js/scripts.js"></script>
+
+<nav>
+  <a href="early-lifeforms/index.html">Early Lifeforms</a>
+  <a href="early-evolutionary-and-developmental-processes/index.html">Early Evolutionary and Developmental Processes</a>
+  <a href="human-evolution-and-gender-roles/index.html">Human Evolution and Gender Roles</a>
+  <a href="social-developments/index.html">Social Developments</a>
+</nav>
+
+<div id="timeline-embed"></div>
+
+<a href="references.html" class="references-link">References</a>
+
+<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+<script>
+  var timelineOptions = {
+    scale_factor: 2,
+    timenav_position: 'bottom',
+    optimal_tick_width: 100,
+    initial_zoom: 1,
+    hash_bookmark: true
+  };
+
+  fetch('main-timeline.json')
+    .then(response => response.json())
+    .then(data => {
+      window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);
+    })
+    .catch(error => console.error('Error loading timeline data:', error));
+</script>
+
 </body>
 </html>
