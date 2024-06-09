@@ -2,7 +2,7 @@
   "title": {
     "text": {
       "headline": "Origin of Sexual Dimorphism",
-      "text": "The Precambrian Era, encompassing the origins of life and early reproductive strategies."
+      "text": "Exploring reproductive mechanisms in early lifeforms, and how sexual dimorphism was adaptive from the earliest stages of life on earth."
     }
   },
   "events": [
@@ -27,7 +27,7 @@
       },
       "text": {
         "headline": "Emergence of self-replicating RNA",
-        "text": "The primordial soup theory posits that early Earth's environment facilitated the formation of simple molecules, leading to the RNA world hypothesis where ribonucleic acid (RNA) played a dual role as both genetic material and catalyst (Cech 1986). The spontaneous formation of RNA from simpler nucleotides marks a significant step from chemical to biological evolution (Joyce 2002; Orgel 2004)."
+        "text": "The primordial soup theory suggests that early Earth's environment enabled the formation of simple molecules, leading to the RNA world hypothesis, where RNA served as both genetic material and catalyst (Cech, 1986). The spontaneous formation of RNA from simpler nucleotides marks a crucial step from chemical to biological evolution (Joyce, 2002; Orgel, 2004)."
       }
     },
     {
@@ -39,7 +39,7 @@
       },
       "text": {
         "headline": "Formation of protocells",
-        "text": "Following this chemical evolution, the transition from non-living to living matter was marked by the emergence of protocells—simple vesicles encapsulating self-replicating RNA and metabolic networks. These protocells likely originated in hydrothermal vents or tidal pools where fluctuating conditions facilitated the concentration and polymerization of organic molecules (Deamer & Dworkin 2005). Early life forms reproduced asexually, similar to binary fission, which posed an evolutionary bottleneck due to the lack of genetic diversity (Maynard Smith & Szathmáry 1995)."
+        "text": "After chemical evolution, the transition to living matter was marked by protocells—vesicles with self-replicating RNA and metabolic networks. These likely originated in hydrothermal vents or tidal pools, where conditions promoted organic molecule concentration and polymerization (Deamer & Dworkin, 2005). Early life reproduced asexually, similar to binary fission, which limited genetic diversity (Maynard Smith & Szathmáry, 1995)."
       }
     },
     {
@@ -51,7 +51,7 @@
       },
       "text": {
         "headline": "Origin of mitochondria and chloroplasts",
-        "text": "The endosymbiotic theory explains the origin of mitochondria and chloroplasts as formerly free-living bacteria that formed symbiotic relationships with early eukaryotic cells (Margulis 1970). This incorporation enabled the evolution of cellular differentiation and multicellularity, setting the stage for more complex reproductive strategies."
+        "text": "The endosymbiotic theory posits that mitochondria and chloroplasts originated as free-living bacteria that formed symbiotic relationships with early eukaryotic cells (Margulis, 1970). This enabled cellular differentiation and multicellularity, paving the way for complex reproductive strategies."
       }
     },
     {
@@ -63,7 +63,7 @@
       },
       "text": {
         "headline": "Development of eukaryotic cells with specialized organelles",
-        "text": "The evolution of eukaryotic cells with specialized organelles provided the structural and functional foundation necessary for the evolution of sexual reproduction, significantly enhancing genetic diversity and adaptability."
+        "text": "The evolution of eukaryotic cells with specialized organelles provided the foundation for sexual reproduction, significantly enhancing genetic diversity and adaptability."
       }
     },
     {
@@ -75,7 +75,7 @@
       },
       "text": {
         "headline": "Evolution of sexual reproduction",
-        "text": "Sexual reproduction involves the fusion of two gametes, each carrying half of the parent's genetic material. This process, known as syngamy, combines different genetic backgrounds, producing offspring with novel genetic combinations (Bell 1982). Genetic recombination through sexual reproduction introduces significant genetic variability, a critical factor for evolution by natural selection (Bernstein et al. 1985). This shift towards sexual reproduction marked a pivotal evolutionary development, laying the groundwork for the emergence of complex gender dynamics."
+        "text": "Sexual reproduction involves the fusion of two gametes, each with half the parent's genetic material. This process, known as syngamy, combines different genetic backgrounds, producing offspring with novel genetic combinations (Bell, 1982). Genetic recombination introduces significant variability, crucial for evolution by natural selection (Bernstein et al., 1985). This shift towards sexual reproduction was pivotal, laying the groundwork for complex gender dynamics."
       }
     },
     {
@@ -87,7 +87,7 @@
       },
       "text": {
         "headline": "Differentiation of gametes into eggs and sperm",
-        "text": "A pivotal development in the evolution of sexual reproduction was the emergence of anisogamy, the differentiation of gametes into distinct types (e.g., eggs and sperm). Anisogamy is thought to have evolved through disruptive selection, where intermediate-sized gametes were less fit than large, resource-rich eggs or small, motile sperm (Parker et al. 1972). This differentiation was driven by trade-offs between gamete size and number, with larger gametes providing more resources for zygote development and smaller gametes enhancing fertilization efficiency. This divergence in gamete morphology laid the foundation for the evolution of sexual dimorphism and gender-specific reproductive strategies (Bulmer & Parker 2002)."
+        "text": "A pivotal development in sexual reproduction was the emergence of anisogamy, where gametes differentiated into distinct types, such as eggs and sperm. Evolving through disruptive selection, large, resource-rich eggs and small, motile sperm were favoured over intermediate-sized gametes (Parker et al., 1972). This differentiation, driven by trade-offs between gamete size and number, laid the foundation for sexual dimorphism and gender-specific reproductive strategies (Bulmer & Parker, 2002)."
       }
     },
     {
@@ -99,16 +99,7 @@
       },
       "text": {
         "headline": "Evolution of sexual dimorphism",
-        "text": "Developmental biology, particularly the role of Hox genes and other regulatory genes, is critical in understanding sexual dimorphism (Carroll 2005). Evolutionary developmental biology (Evo-Devo) offers insights into how changes in developmental processes contribute to the evolution of gender and sexual diversity. For example, in many species, sexually dimorphic traits such as size and coloration can be traced back to specific developmental pathways influenced by regulatory genes. These developmental processes underscore the intricate biological foundations upon which gender-specific traits are built."
-      }
-    },
-    {
-      "start_date": {
-        "year": "-600000000"
-      },
-      "text": {
-        "headline": "Role of Hox genes and regulatory genes in sexual dimorphism",
-        "text": "In mammals, sexual differentiation is controlled by the presence or absence of the Y chromosome, which carries the SRY gene. The SRY gene triggers the development of testes, producing hormones such as testosterone that drive male differentiation (Wilhelm et al. 2007). In the absence of the SRY gene, the default pathway leads to female development. Hormones play a crucial role in regulating sexual differentiation and development. Testosterone and other androgens promote the development of male characteristics, while estrogens promote female characteristics (Arnold 2009)."
+        "text": "In the earliest lifeforms, sexual dimorphism likely arose from initial selection pressures linked to sexual selection, genetic, and environmental mechanisms. West-Eberhard (1983) discusses how even in the simplest organisms, traits that improved mating success could lead to significant differences between the sexes. Additionally, genetic factors such as mutations and recombination would have introduced variability in traits, which, when coupled with environmental influences like resource availability and habitat conditions, would have further driven the development of sexually dimorphic characteristics. These combined pressures created a dynamic evolutionary landscape where sexual dimorphism could rapidly evolve and become entrenched in early lifeforms."
       }
     }
   ]
