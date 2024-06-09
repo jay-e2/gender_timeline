@@ -6,34 +6,56 @@
   <title>Main Timeline Page</title>
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .container {
+      position: relative;
+    }
+
+    h1, h2, h3 {
+      margin: 10px 0;
+    }
+
+    .links {
+      margin-top: 30px;
+    }
+
+    .links a {
+      display: block;
+      margin: 10px 0;
+      font-size: 18px;
+      color: blue;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
-<nav>
-  <a href="early-lifeforms/index.html" class="nav-link nav-link-left">Early Lifeforms</a>
-  <a href="references.html" class="references-link">References</a>
-  <a href="early-evolutionary-and-developmental-processes/index.html" class="nav-link nav-link-right">Early Evolutionary and Developmental Processes</a>
-</nav>
+<div class="container">
+  <h1>Evolution of Gender</h1>
+  <h2>Jay Enright</h2>
+  <h3>s3950380</h3>
+  <h3>RMIT University</h3>
 
-<div id="timeline-embed"></div>
-
-<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
-<script>
-  var timelineOptions = {
-    scale_factor: 2,
-    timenav_position: 'bottom',
-    optimal_tick_width: 100,
-    initial_zoom: 1,
-    hash_bookmark: true
-  };
-
-  fetch('main-timeline.json')
-    .then(response => response.json())
-    .then(data => {
-      window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);
-    })
-    .catch(error => console.error('Error loading timeline data:', error));
-</script>
+  <div class="links">
+    <a href="early-lifeforms/index.html">Start Timeline</a>
+    <a href="references.html">References</a>
+  </div>
+</div>
 
 </body>
 </html>
