@@ -18,12 +18,24 @@ body, html {
     background: #f0f0f0;
     padding: 10px;
     text-align: center;
+}
+
+.timeline-content {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.timeline-page {
     position: relative;
+    margin-bottom: 20px;
+    padding-top: 40px; /* Add padding to ensure content does not overlap with the link */
 }
 
 .references-link {
     position: absolute;
-    top: 10px;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     background: #ffffff;
@@ -32,13 +44,6 @@ body, html {
     text-decoration: none;
     color: #333333;
     font-weight: bold;
-}
-
-.timeline-content {
-    flex: 1 1 auto;
-    overflow-y: auto;
-    padding: 20px;
-    background: #ffffff;
 }
 
 .timeline-footer {
