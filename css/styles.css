@@ -13,11 +13,25 @@ body, html {
     overflow: hidden;
 }
 
-.timeline-header, .timeline-footer {
+.timeline-header {
     flex: 0 1 auto;
     background: #f0f0f0;
     padding: 10px;
     text-align: center;
+    position: relative;
+}
+
+.references-link {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
 }
 
 .timeline-content {
@@ -25,4 +39,11 @@ body, html {
     overflow-y: auto;
     padding: 20px;
     background: #ffffff;
+}
+
+.timeline-footer {
+    flex: 0 1 auto;
+    background: #f0f0f0;
+    padding: 10px;
+    text-align: center;
 }
