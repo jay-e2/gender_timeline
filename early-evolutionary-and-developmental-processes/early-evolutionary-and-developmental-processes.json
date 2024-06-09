@@ -37,7 +37,10 @@
     },
     {
       "start_date": {
-        "year": "-45000000"
+        "year": "-12000000"
+      },
+      "end_date": {
+        "year": "-6000000"
       },
       "text": {
         "headline": "Gender Segregation in Early Primates",

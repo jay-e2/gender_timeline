@@ -5,55 +5,67 @@
       "text": "Exploring the evolution of gender norms and the gradual liberation of women."
     }
   },
-  "eras": [
-    {
-      "start_date": {
-        "year": "-3000"
-      },
-      "end_date": {
-        "year": "500"
-      },
-      "text": {
-        "headline": "Ancient Civilizations",
-        "text": ""
-      }
+"eras": [
+  {
+    "start_date": {
+      "year": "-3000"
     },
-    {
-      "start_date": {
-        "year": "500"
-      },
-      "end_date": {
-        "year": "1500"
-      },
-      "text": {
-        "headline": "The Middle Ages",
-        "text": ""
-      }
+    "end_date": {
+      "year": "500"
     },
-    {
-      "start_date": {
-        "year": "1300"
-      },
-      "end_date": {
-        "year": "1800"
-      },
-      "text": {
-        "headline": "Renaissance",
-        "text": ""
-      }
-    },
-    {
-      "start_date": {
-        "year": "1760"
-      },
-      "end_date": {
-        "year": "1840"
-      },
-      "text": {
-        "headline": "Industrial Revolution",
-        "text": ""
-      }
+    "text": {
+      "headline": "Ancient Civilizations",
+      "text": ""
     }
+  },
+  {
+    "start_date": {
+      "year": "500"
+    },
+    "end_date": {
+      "year": "1500"
+    },
+    "text": {
+      "headline": "The Middle Ages",
+      "text": ""
+    }
+  },
+  {
+    "start_date": {
+      "year": "1300"
+    },
+    "end_date": {
+      "year": "1700"
+    },
+    "text": {
+      "headline": "Renaissance",
+      "text": ""
+    }
+  },
+  {
+    "start_date": {
+      "year": "1685"
+    },
+    "end_date": {
+      "year": "1815"
+    },
+    "text": {
+      "headline": "Enlightenment",
+      "text": ""
+    }
+  },
+  {
+    "start_date": {
+      "year": "1760"
+    },
+    "end_date": {
+      "year": "1840"
+    },
+    "text": {
+      "headline": "Industrial Revolution",
+      "text": ""
+    }
+  }
   ],
   "events": [
     {
@@ -106,7 +118,7 @@
         "year": "1300"
       },
       "end_date": {
-        "year": "1800"
+        "year": "1500"
       },
       "text": {
         "headline": "Late Middle Ages",
@@ -183,10 +195,10 @@
     },
     {
       "start_date": {
-        "year": "1830"
+        "year": "1870"
       },
       "end_date": {
-        "year": "1870"
+        "year": "1914"
       },
       "text": {
         "headline": "Late Industrial Revolution ",
@@ -232,10 +244,10 @@
     },
     {
       "start_date": {
-        "year": "1914"
+        "year": "1939"
       },
       "end_date": {
-        "year": "1939"
+        "year": "1945"
       },
       "text": {
         "headline": "World War II Era",
