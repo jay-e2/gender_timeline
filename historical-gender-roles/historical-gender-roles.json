@@ -70,6 +70,9 @@
   "events": [
     {
       "start_date": {
+        "year": "-3000"
+      },
+      "end_date": {
         "year": "500"
       },
       "text": {
