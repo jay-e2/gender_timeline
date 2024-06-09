@@ -8,23 +8,60 @@
   "events": [
     {
       "start_date": {
-        "year": "-50000000"
+        "year": "-100000"
+      },
+      "end_date": {
+        "year": "-50000"
       },
       "text": {
-        "headline": "Parental Investment Theory and Reproductive Strategies",
-        "text": "Parental investment theory explains differences in male and female reproductive strategies based on relative investment in offspring. Typically, females invest more heavily in offspring due to gestation and lactation, leading to choosiness in mate selection and a focus on securing resources for offspring. Males, on the other hand, may compete for access to females and exhibit behaviours that maximize their reproductive output. Del Giudice (2009) suggests that early psychosocial stress and insecure attachment lead to different reproductive strategies in males and females, indicating that environmental cues shape sex-specific reproductive behaviours and furthering the evolution of gender roles."
+        "headline": "Early Signs of Gendered Division of Labour",
+        "text": "While the distinct and well-documented gendered division of labour is more evident in the Upper Palaeolithic around 45,000 years ago, there are indications that some form of gender-specific roles may have existed earlier. Archaeological evidence from the Late Pleistocene (approximately 100,000-50,000 years ago) suggests that early human societies were beginning to develop more specialized roles based on gender. This period marks the initial stages of differentiated economic roles that laid the foundation for more complex social structures observed later (Kuhn & Stiner, 2006)."
+      },
+      "media": {
+        "url": "images/early-signs-of-gendered-division-of-labour.webp",
+        "caption": "<i>Note.</i> Image generated using DALL-E"
       }
     },
     {
       "start_date": {
-        "year": "-400000"
-      },
-      "end_date": {
-        "year": "-40000"
+        "year": "-45000"
       },
       "text": {
-        "headline": "Neanderthal Division of Labour.",
-        "text": "Analysis of skeletal remains and tool use patterns suggests that Neanderthals had specialized roles based on gender, with men hunting and women gathering, influenced by ecological conditions and subsistence strategies (Kuhn & Stiner, 2006)."
+        "headline": "Emergence of Pronounced Gendered Division of Labour",
+        "text": "Approximately 45,000 years ago, during the early Upper Palaeolithic, human societies exhibited a more defined and pronounced gendered division of labour. This period saw the inclusion of a wider variety of small-animal resources in human diets, indicating specialized roles for males and females in subsistence activities. These changes likely provided demographic advantages by ensuring more stable food supplies and fostering cooperative economies (Kuhn & Stiner, 2006)."
+      },
+      "media": {
+        "url": "images/emergence-of-pronounced-gendered-division-of-labour.webp",
+        "caption": "<i>Note.</i> Image generated using DALL-E"
+      }
+    },
+    {
+      "start_date": {
+        "year": "-45000"
+      },
+      "text": {
+        "headline": "Development of Cooperative Economies",
+        "text": "Between 45,000 and 30,000 years ago, anatomically modern humans in Eurasia developed cooperative economies characterized by complementary subsistence roles for men and women. These diversified and cooperative roles enhanced the adaptive capabilities of modern humans, contributing to their evolutionary success over Neandertals. The emergence of these economies facilitated efficient resource use and population expansion (Kuhn & Stiner, 2006)."
+      },
+      "media": {
+        "url": "",
+        "caption": ""
+      }
+    },
+    {
+      "start_date": {
+        "year": "-45000"
+      },
+      "end_date": {
+        "year": "-30000"
+      },
+      "text": {
+        "headline": "Development of Cooperative Economies",
+        "text": "Between 45,000 and 30,000 years ago, anatomically modern humans in Eurasia developed cooperative economies characterized by complementary subsistence roles for men and women. These diversified and cooperative roles enhanced the adaptive capabilities of modern humans, contributing to their evolutionary success over Neandertals. The emergence of these economies facilitated efficient resource use and population expansion (Kuhn & Stiner, 2006)."
+      },
+      "media": {
+        "url": "images/the-rise-of-feminist-movements.jpg",
+        "caption": ""
       }
     }
   ]
