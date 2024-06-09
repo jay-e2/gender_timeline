@@ -3,59 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Human Gender Evolution</title>
+  <title>Human Gender Evolution Timeline</title>
+  <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
   <link rel="stylesheet" href="../css/styles.css">
-  <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      height: 100%;
-      overflow-y: auto;
-    }
-
-    .timeline-nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      padding: 10px 20px;
-      box-sizing: border-box;
-      background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque background */
-      z-index: 1000;
-    }
-
-    .timeline-nav a {
-      text-decoration: none;
-      font-size: 16px;
-      color: #007BFF;
-      background-color: #f8f9fa;
-      padding: 10px;
-      border-radius: 5px;
-    }
-
-    #timeline-embed {
-      margin-top: 50px; /* Adjust for the height of the navigation bar */
-    }
-  </style>
 </head>
 <body>
 
-<div class="timeline-nav">
-  <a href="../primate-gender-dynamics/index.html">Previous: Primate Gender Dynamics</a>
-  <a href="../historical-gender-roles/index.html">Next: Historical Gender Roles</a>
-</div>
+<nav>
+  <a href="../primate-gender-dynamics/index.html" class="nav-link nav-link-left">Previous: Primate Gender Dynamics</a>
+  <a href="../historical-gender-roles/index.html" class="nav-link nav-link-right">Next: Historical Gender Roles</a>
+  <a href="../references.html" class="references-link">References</a>
+</nav>
 
 <div id="timeline-embed"></div>
+
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 <script>
-  var additionalOptions = {
-    initial_zoom: 2,
-    timenav_position: "bottom"
-  }
-  var timeline_json = "human-gender-evolution.json";
-  window.timeline = new TL.Timeline('timeline-embed', timeline_json, additionalOptions);
+  var timelineOptions = {
+    scale_factor: 2,
+    timenav_position: 'bottom',
+    optimal_tick_width: 100,
+    initial_zoom: 1,
+    hash_bookmark: true
+  };
+
+  fetch('human-gender-evolution.json')
+    .then(response => response.json())
+    .then(data => {
+      window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);
+    })
+    .catch(error => console.error('Error loading timeline data:', error));
 </script>
 
 </body>
