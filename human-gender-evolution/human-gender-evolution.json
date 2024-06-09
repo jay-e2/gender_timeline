@@ -39,9 +39,12 @@
       "start_date": {
         "year": "-45000"
       },
+      "end_date": {
+        "year": "-30000"
+      },
       "text": {
         "headline": "Development of Cooperative Economies",
-        "text": "Between 45,000 and 30,000 years ago, anatomically modern humans in Eurasia developed cooperative economies characterized by complementary subsistence roles for men and women. These diversified and cooperative roles enhanced the adaptive capabilities of modern humans, contributing to their evolutionary success over Neandertals. The emergence of these economies facilitated efficient resource use and population expansion (Kuhn & Stiner, 2006)."
+        "text": "Between 45,000 and 30,000 years ago, anatomically modern humans in Eurasia developed cooperative economies with complementary subsistence roles for men and women. This diversification in roles improved adaptive capabilities, giving modern humans an evolutionary advantage over Neandertals. These cooperative economies enabled more efficient resource use and supported population expansion (Kuhn & Stiner, 2006)."
       },
       "media": {
         "url": "images/development-of-cooperative-economies.webp",
