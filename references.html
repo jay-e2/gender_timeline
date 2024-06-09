@@ -6,27 +6,37 @@
   <title>References</title>
   <link rel="stylesheet" href="css/styles.css">
   <style>
-    body {
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
       font-family: Arial, sans-serif;
-      line-height: 2;
-      margin: 10px 200px; /* Wider margins */
     }
+
+    .container {
+      padding: 20px;
+    }
+
     h1 {
       text-align: center;
     }
+
     .references {
-      list-style-type: none;
-      padding: 0;
+      max-width: 800px;
+      margin: 0 auto;
     }
-    .references li {
-      margin-bottom: 10px;
-      line-height: 1.5;
-    }
+
     .reference {
       display: block;
       margin-bottom: 10px;
-      text-indent: -3.5em; /* Larger hanging indent */
-      padding-left: 3.5em; /* Larger hanging indent */
+      line-height: 1.5;
+      text-indent: -2em; /* Larger hanging indent */
+      padding-left: 2em; /* Larger hanging indent */
+    }
+
+    .reference-page {
+      overflow-y: auto; /* Ensure the references page is scrollable */
+      height: 100vh; /* Full viewport height */
     }
   </style>
 </head>
