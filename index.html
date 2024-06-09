@@ -6,48 +6,16 @@
   <title>Main Timeline Page</title>
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
   <link rel="stylesheet" href="css/styles.css">
-  <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-    }
-    #timeline-embed {
-      height: calc(100% - 60px); /* Full height minus the space for the references link */
-    }
-    .references-link {
-      display: block;
-      text-align: center;
-      font-size: 18px;
-      color: blue;
-      position: absolute;
-      bottom: 10px;
-      width: 100%;
-    }
-    nav {
-      text-align: center;
-      margin: 10px 0;
-    }
-    nav a {
-      margin: 0 10px;
-      font-size: 18px;
-      color: blue;
-    }
-  </style>
 </head>
 <body>
 
 <nav>
-  <a href="early-lifeforms/index.html">Early Lifeforms</a>
-  <a href="early-evolutionary-and-developmental-processes/index.html">Early Evolutionary and Developmental Processes</a>
-  <a href="human-evolution-and-gender-roles/index.html">Human Evolution and Gender Roles</a>
-  <a href="social-developments/index.html">Social Developments</a>
+  <a href="early-lifeforms/index.html" class="nav-link-left">Early Lifeforms</a>
+  <a href="references.html" class="references-link">References</a>
+  <a href="early-evolutionary-and-developmental-processes/index.html" class="nav-link-right">Early Evolutionary and Developmental Processes</a>
 </nav>
 
 <div id="timeline-embed"></div>
-
-<a href="references.html" class="references-link">References</a>
 
 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 <script>

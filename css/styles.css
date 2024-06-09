@@ -33,7 +33,7 @@ nav a:hover {
 }
 
 #timeline-embed {
-  height: calc(100% - 60px); /* Full height minus the space for the references link */
+  height: calc(100% - 40px); /* Full height minus the space for the navigation links */
 }
 
 .references-link {
@@ -42,13 +42,26 @@ nav a:hover {
   font-size: 18px;
   color: blue;
   position: absolute;
-  bottom: 10px;
-  width: 100%;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   text-decoration: none;
 }
 
 .references-link:hover {
   text-decoration: underline;
+}
+
+.nav-link-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.nav-link-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 /* References Page Specific Styles */
