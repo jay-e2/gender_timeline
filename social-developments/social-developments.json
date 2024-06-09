@@ -58,75 +58,11 @@
   "events": [
     {
       "start_date": {
-        "year": "-3100"
-      },
-      "end_date": {
-        "year": "-539"
-      },
-      "text": {
-        "headline": "Mesopotamia",
-        "text": "Gender roles were entrenched in Mesopotamia, with women primarily managing households and men dominating public spheres. Although some women could own property and engage in business, their public roles were generally limited compared to those of men (Adana et al., 2011)."
-      },
-      "media": {
-        "url": "images/mesopotamia.webp",
-        "caption": ""
-      }
-    },
-    {
-      "start_date": {
-        "year": "-3100"
-      },
-      "end_date": {
-        "year": "-30"
-      },
-      "text": {
-        "headline": "Egypt",
-        "text": "Egyptian society had more fluid gender roles compared to other ancient civilizations. with women holding significant positions. Women in Egypt could own, inherit, and bequeath property, and some held significant positions in religious and public life. Notable examples include women serving as priestesses and even as pharaohs, such as Hatshepsut. Nonetheless, the primary expectation for women was to manage the household and bear children, while men were responsible for providing for and protecting the family (Adana et al., 2011; Steinmetz et al., 2014)."
-      },
-      "media": {
-        "url": "images/egypt.webp",
-        "caption": ""
-      }
-    },
-    {
-      "start_date": {
-        "year": "-800"
-      },
-      "end_date": {
-        "year": "-31"
-      },
-      "text": {
-        "headline": "Greece",
-        "text": "In ancient Greece, gender roles were strict, especially in city-states. Women were largely confined to the home, with limited legal rights and were often under the guardianship of a male relative. Sparta, however, presented a notable exception, where women had more freedom, including property rights and physical training to ensure they could bear strong children (Steinmetz et al., 2014)."
-      },
-      "media": {
-        "url": "images/greece.webp",
-        "caption": ""
-      }
-    },
-    {
-      "start_date": {
-        "year": "-753"
-      },
-      "end_date": {
-        "year": "476"
-      },
-      "text": {
-        "headline": "Rome",
-        "text": "Roman gender norms were strict, with clear distinctions between the roles of men and women. Despite these norms, Roman women could wield significant influence behind the scenes, especially within the family. Some women of higher status, such as the Vestal Virgins, held unique religious roles that granted them certain privileges and a degree of autonomy (Adana et al., 2011; Steinmetz et al., 2014)."
-      },
-      "media": {
-        "url": "images/rome.webp",
-        "caption": ""
-      }
-    },
-    {
-      "start_date": {
         "year": "500"
       },
       "text": {
-        "headline": "Ancient Civilizations: Foundations of Gender Norms",
-        "text": "In ancient Mesopotamia, Egypt, Greece, and Rome, gender roles were rigidly defined and deeply rooted in societal structures. Men typically engaged in public life, politics, and warfare, while women were confined to domestic roles. These early civilizations laid the groundwork for contemporary gender norms through their legal systems and cultural practices, and ensured that women remained subordinate, impacting their social and economic status. While these historical analyses provide a foundation, it is crucial to question the extent to which these rigid structures were universally enforced. Evidence suggests that in less documented areas and among lower classes, women might have had more varied roles, often participating in local trade and agricultural activities which were less controlled by formal legal codes. For example, in ancient Egypt, women of lower classes often worked alongside men in the fields and engaged in trade (Lesko, 1991). This indicates that economic necessity could override formal gender norms, leading to more fluid gender roles in practice."
+        "headline": "Ancient Civilizations",
+        "text": "Ancient civilizations generally exhibited clear distinctions in gender roles, with women primarily managing household responsibilities and men dominating public and authoritative spheres. Despite the prevalent norms, women in some contexts could own property, engage in business, and hold significant religious or public positions, which granted them certain privileges and autonomy. However, these exceptions did not alter the primary societal expectations for women to manage domestic affairs and bear children, while men were responsible for providing for and protecting their families (Adana et al., 2011; Steinmetz et al., 2014)."
       },
       "media": {
         "url": "images/mesopotamia.webp",
@@ -287,7 +223,7 @@
       },
       "text": {
         "headline": "World War I and Interwar Period",
-        "text": "Women took on traditionally male roles during wartime labour shortages, prompting an unprecedented influx of women into the workforce and temporarily disrupting traditional gender norms (Smith, 2000)."
+        "text": "Women took on traditionally male roles during wartime labour shortages, prompting an unprecedented influx of women into the workforce and temporarily disrupting traditional gender norms (Boehnke & Gay, 2017)."
       },
       "media": {
         "url": "images/world-war-I-and-interwar-period.webp",
@@ -303,7 +239,7 @@
       },
       "text": {
         "headline": "World War II Era",
-        "text": "World War II further accelerated the involvement of women in the workforce as men were once again called to serve in the military, though post-war pressures to return to domesticity persisted. Despite societal pressures to return to domesticity post-war, the war period significantly altered perceptions of women's roles in society and their capabilities (Hartmann, 1982)."
+        "text": "World War II further accelerated the involvement of women in the workforce as men were once again called to serve in the military, though post-war pressures to return to domesticity persisted. Despite societal pressures to return to domesticity post-war, the war period significantly altered perceptions of women's roles in society and their capabilities (Armstrong, 1998)."
       },
       "media": {
         "url": "images/world-war-II-era.webp",
@@ -319,7 +255,7 @@
       },
       "text": {
         "headline": "Post-World War II",
-        "text": "Post-war, societal push for traditional gender roles clashed with women’s demonstrated capabilities in various fields, leading to gradual shifts toward gender equality (Chafe, 1972)."
+        "text": "Post-war, societal push for traditional gender roles clashed with women’s demonstrated capabilities in various fields, leading to gradual shifts toward gender equality (Cotter et al., 2011)."
       },
       "media": {
         "url": "images/post-world-war-II.webp",
@@ -335,7 +271,7 @@
       },
       "text": {
         "headline": "The Rise of Feminist Movements",
-        "text": "The 1960s and 1970s feminist movement played a crucial role in challenging and reshaping traditional gender roles, advocating for workplace equality, reproductive rights, and legal reforms. By the late 1970s, public opinion had shifted considerably, with a substantial portion of the population supporting gender equality and women's rights (Freeman, 1975)."
+        "text": "The 1960s and 1970s feminist movement played a crucial role in challenging and reshaping traditional gender roles, advocating for workplace equality, reproductive rights, and legal reforms. By the late 1970s, public opinion had shifted considerably, with a substantial portion of the population supporting gender equality and women's rights (Cole et al., 1998)."
       },
       "media": {
         "url": "images/the-rise-of-feminist-movements.jpg",
@@ -367,7 +303,7 @@
       },
       "text": {
         "headline": "Mid-21st Century",
-        "text": "The mid-2010s marked a period of both progress and stasis in gender equality. Despite progress, significant disparities in political representation and occupational segregation remained, with women facing gender bias in leadership roles and online interactions (McGregor & Mourão, 2016; Koc-Michalska et al., 2021)."
+        "text": "The mid-2010s marked a period of both progress and stasis in gender equality. Despite progress, significant disparities in political representation and occupational segregation remained, with women facing gender bias in leadership roles and online interactions (Koc-Michalska et al., 2021; McGregor & Mourão, 2016)."
       },
       "media": {
         "url": "images/Mid-21st-Century.jpg",
