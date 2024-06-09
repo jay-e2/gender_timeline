@@ -3,23 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Early Lifeforms Timeline</title>
+  <title>Human Evolution and Gender Roles Timeline</title>
   <link rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
   <link rel="stylesheet" href="../css/styles.css">
-  <style>
-    .references-link {
-      display: block;
-      margin: 20px 0;
-      text-align: center;
-      font-size: 18px;
-      color: blue;
-    }
-  </style>
 </head>
 <body>
 
 <nav>
-  <a href="../early-evolutionary-and-developmental-processes/index.html">Next: Early Evolutionary and Developmental Processes</a>
+  <a href="../early-evolutionary-and-developmental-processes/index.html">Previous: Early Evolutionary and Developmental Processes</a>
+  <a href="../social-developments/index.html">Next: Social Developments</a>
 </nav>
 
 <div id="timeline-embed"></div>
@@ -34,7 +26,7 @@
     hash_bookmark: true
   };
 
-  fetch('early-lifeforms.json')
+  fetch('human-evolution-and-gender-roles.json')
     .then(response => response.json())
     .then(data => {
       window.timeline = new TL.Timeline('timeline-embed', data, timelineOptions);
@@ -42,7 +34,7 @@
     .catch(error => console.error('Error loading timeline data:', error));
 </script>
 
-<a href="../references.html" class="references-link">References</a>
+<a href="../references.html">References</a>
 
 </body>
 </html>
