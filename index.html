@@ -28,7 +28,7 @@
     }
 
     .link-container {
-      margin-top: 35px; /* Increased margin to position the buttons lower */
+      margin-top: 40px; /* Increased margin to position the buttons lower */
       position: absolute;
       top: calc(50% + 100px); /* Adjust this value as needed */
       left: 50%;
@@ -36,7 +36,7 @@
     }
 
     .styled-link {
-      display: block;
+      display: inline-block; /* Ensure the element behaves like a block element but is sized by its content */
       margin: 10px 0;
       padding: 10px 40px; /* Increased padding for wider buttons */
       font-size: 18px;
@@ -44,7 +44,9 @@
       text-decoration: none;
       background-color: #f8f9fa;
       border-radius: 5px;
-      width: auto; /* Allow width to adjust based on padding */
+      text-align: center; /* Center the text horizontally */
+      vertical-align: middle; /* Center the text vertically */
+      line-height: normal; /* Ensure proper line height for vertical centering */
     }
   </style>
 </head>
