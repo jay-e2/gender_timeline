@@ -41,12 +41,13 @@
       display: flex;
       justify-content: space-between;
       margin-bottom: 20px; /* Add some space below the buttons */
+      flex-wrap: wrap; /* Allow buttons to wrap to the next line if necessary */
     }
 
     .styled-link {
       display: block;
-      padding: 10px 40px; /* Increased padding for wider buttons */
-      font-size: 18px; /* Make the text size consistent */
+      padding: 10px 20px; /* Adjust padding to match the main menu button */
+      font-size: 16px; /* Adjust font size to match the main menu button */
       color: #007BFF;
       text-decoration: none;
       background-color: #f8f9fa;
@@ -54,8 +55,9 @@
       text-align: center; /* Center the text horizontally */
       line-height: normal; /* Ensure proper line height for vertical centering */
       flex: 1; /* Ensure buttons are of equal width */
-      height: 60px; /* Set a fixed height for the buttons */
-      margin: 10px; /* Add some margin to space out the buttons */
+      height: 40px; /* Set a fixed height for the buttons */
+      margin: 5px; /* Add some margin to space out the buttons */
+      max-width: 180px; /* Set a max-width to ensure buttons are not too wide */
     }
 
     .references-container {
