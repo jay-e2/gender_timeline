@@ -42,6 +42,26 @@
       margin-bottom: 20px;
     }
 
+    .timeline-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px; /* Add some space below the buttons */
+    }
+
+    .styled-link {
+      display: block;
+      margin: 10px 0;
+      padding: 10px 40px; /* Increased padding for wider buttons */
+      font-size: 18px;
+      color: #007BFF;
+      text-decoration: none;
+      background-color: #f8f9fa;
+      border-radius: 5px;
+      text-align: center; /* Center the text horizontally */
+      line-height: normal; /* Ensure proper line height for vertical centering */
+    }
+
     .references-container {
       flex: 1;
       overflow-y: auto; /* Enable vertical scrolling */
@@ -57,29 +77,9 @@
       display: block;
       margin-bottom: 20px; /* Double space between references */
       line-height: 1.5;
-      text-indent: -3.5em; /* Adjusted hanging indent */
-      padding-left: 3.5em; /* Adjusted hanging indent */
+      text-indent: -4em; /* Adjusted hanging indent */
+      padding-left: 4em; /* Adjusted hanging indent */
       text-align: left; /* Align references to the left */
-    }
-
-    .timeline-links {
-      display: flex;
-      flex-direction: column;
-      margin-top: 20px;
-      align-items: center;
-    }
-
-    .styled-link {
-      display: block;
-      margin: 10px 0;
-      padding: 10px 40px; /* Increased padding for wider buttons */
-      font-size: 18px;
-      color: #007BFF;
-      text-decoration: none;
-      background-color: #f8f9fa;
-      border-radius: 5px;
-      text-align: center; /* Center the text horizontally */
-      line-height: normal; /* Ensure proper line height for vertical centering */
     }
   </style>
 </head>
