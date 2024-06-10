@@ -39,9 +39,9 @@
 
     .timeline-links {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       margin-bottom: 20px; /* Add some space below the buttons */
-      flex-wrap: wrap; /* Allow buttons to wrap to the next line if necessary */
+      gap: 10px; /* Add some space between the buttons */
     }
 
     .styled-link {
@@ -53,10 +53,9 @@
       background-color: #f8f9fa;
       border-radius: 5px;
       text-align: center; /* Center the text horizontally */
-      line-height: normal; /* Ensure proper line height for vertical centering */
-      flex: 1; /* Ensure buttons are of equal width */
+      line-height: 40px; /* Set line height to match the button height */
       height: 40px; /* Set a fixed height for the buttons */
-      margin: 5px; /* Add some margin to space out the buttons */
+      flex: 1; /* Ensure buttons are of equal width */
       max-width: 180px; /* Set a max-width to ensure buttons are not too wide */
     }
 
