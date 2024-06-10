@@ -251,22 +251,6 @@
     },
     {
       "start_date": {
-        "year": "1945"
-      },
-      "end_date": {
-        "year": "1950"
-      },
-      "text": {
-        "headline": "Post-World War II",
-        "text": "Post-war, societal push for traditional gender roles clashed with women’s demonstrated capabilities in various fields, leading to gradual shifts toward gender equality (Cotter et al., 2011)."
-      },
-      "media": {
-        "url": "images/post-world-war-II.webp",
-        "caption": "<i>Note.</i> Image generated using DALL-E"
-      }
-    },
-    {
-      "start_date": {
         "year": "1960"
       },
       "end_date": {
